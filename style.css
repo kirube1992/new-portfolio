@@ -45,9 +45,9 @@ a {
   }
 
   .section1,
-      .p {
-          max-width: 720px;
-      }
+        .p {
+               max-width: 720px;
+        }
 }
 
 @media only screen and (max-width: 768px) {
@@ -58,8 +58,7 @@ a {
   .section1,
   .p {
     max-width: 320px;
-      }
-
+        }
 }
 
 .item1 {
