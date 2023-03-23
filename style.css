@@ -7,25 +7,27 @@ body {
   font-size: 16px;
 }
 
-.logo, .item, .toggle {
+.logo,
+.item,
+.toggle {
   list-style-type: none;
 }
 
 a {
- text-decoration: none;
+  text-decoration: none;
 }
 
 .logo {
   font-size: 18px;
   font-weight: 700;
-  color: #6070FF;
+  color: #6070ff;
 }
 
 .menu {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items:center; 
+  align-items: center; 
 }
 
 .menu2 {
@@ -34,23 +36,27 @@ a {
 
 .menu li a {
   display: block;
-  padding:10px 5px;
+  padding: 10px 5px;
 }
 
 @media screen and (min-width: 768px) {
-    .toggle {
+  .toggle {
       display: none;
-    }
-    .section1, .p {
-        max-width: 720px;
+  }
+
+  .section1,
+   .p {
+      max-width: 720px;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .item {
-        display: none;
-    }
-    .section1, .p {
+  .item {
+    display: none;
+  }
+
+  .section1,
+  .p {
         max-width: 320px;
     }
 }
@@ -67,8 +73,9 @@ a {
   margin: 5px;
 }
 
-.section1, .h1 {
-  color:  #172B4D;
+.section1,
+.h1 {
+  color: #172b4d;
   font-size: 40px;
   font-weight: 700;
 }
