@@ -27,7 +27,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center; 
+  align-items: center;
 }
 
 .menu2 {
@@ -41,13 +41,13 @@ a {
 
 @media screen and (min-width: 768px) {
   .toggle {
-      display: none;
+          display: none;
   }
 
   .section1,
-   .p {
-      max-width: 720px;
-    }
+     .p {
+          max-width: 720px;
+      }
 }
 
 @media only screen and (max-width: 768px) {
@@ -57,13 +57,14 @@ a {
 
   .section1,
   .p {
-        max-width: 320px;
-    }
+            max-width: 320px;
+      }
 }
 
 .item1 {
   list-style-type: none;
 }
+
 .social {
   display: flex;
   align-items: center;
