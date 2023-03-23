@@ -84,7 +84,7 @@ a {
 
 .section1,
 .h1 {
-  color:#091e42;
+  color: #091e42;
   font-size: 40px;
   font-weight: 700;
   line-height: 60px;
@@ -98,7 +98,7 @@ a {
   font-weight: 500;
 }
 
-.section1
+.section1,
 .p {
   font-size: 20px;
   line-height: 28px;
