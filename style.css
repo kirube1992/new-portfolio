@@ -20,7 +20,15 @@ a {
 .logo {
   font-size: 18px;
   font-weight: 700;
+  line-height: 20px;
   color: #6070ff;
+}
+
+.item {
+  color: #344563;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
 }
 
 .menu {
@@ -46,7 +54,7 @@ a {
 
   .section1,
   .p {
-    max-width: 720px;
+    max-width: 920px;
   }
 }
 
@@ -57,7 +65,7 @@ a {
 
   .section1,
   .p {
-    max-width: 320px;
+    max-width: 420px;
   }
 }
 
@@ -76,7 +84,24 @@ a {
 
 .section1,
 .h1 {
-  color: #172b4d;
+  color:#091e42;
   font-size: 40px;
   font-weight: 700;
+  line-height: 60px;
+}
+
+.section1,
+.l {
+  color: #7f8cff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.section1
+.p {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #344563;
 }
