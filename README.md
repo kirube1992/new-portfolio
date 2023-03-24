@@ -37,7 +37,11 @@
 
 # 📖 [portfolio] <a name="about-project"></a>
 
+<<<<<<< HEAD
 **[your_project__name]** is a portfolio project, it's static website with simple html and css
+=======
+**[portfolio]** is a portfolio project, it's static website with simple html and css
+>>>>>>> 7c73f3bc690459b7b8e75849cd5950e5d1e8a81d
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -202,4 +206,8 @@ This project is [MIT](./LICENSE) licensed.
 
 https://github.com/kirube1992/Hello-Microverse/compare/main...add-license-1?quick_pull=1
 
+<<<<<<< HEAD
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+=======
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+>>>>>>> 7c73f3bc690459b7b8e75849cd5950e5d1e8a81d
