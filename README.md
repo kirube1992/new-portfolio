@@ -1,7 +1,32 @@
 <a name="readme-top"></a>
 
-<div align="center">
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
+Modify this file to match your project and remove sections that don't apply.
+
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+OPTIONAL SECTIONS:
+- FAQ
+
+After you're finished please remove all the comments and instructions!
+-->
+
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
@@ -35,31 +60,38 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [portfolio] <a name="about-project"></a>
+# 📖 [your_project_name] <a name="about-project"></a>
 
-**[portfolio]** is a portfolio project, it's static website with simple html and css
+> Describe your project in 1 or 2 sentences.
+
+**[your_project__name]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-
+> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
-  <summary>HTML</summary>
+  <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">HTML</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>css</summary>
+  <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">css</a></li>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
   </ul>
 </details>
 
 <details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
 
 <!-- Features -->
 
@@ -67,16 +99,27 @@
 
 > Describe between 1-3 key features of the application.
 
-- **[linter]**
-- **[github work flow]**
-- **[mobile first aproch]**
+- **[key_feature_1]**
+- **[key_feature_2]**
+- **[key_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://google.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
+
+> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -84,49 +127,75 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-Basic knowledge of HTML, CSS, and JavaScript
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
+<!--
+Example commands:
 
-[Download the ZIP from this location](https://github.com/kirube1992/new-portfolio/archive/refs/heads/main.zip), or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
-git clone https://github.com/kirube1992/new-portfolio.git
-- Once the files are on your machine, open the _new-portfolio_ folder in [Visual Studio Code](https://code.visualstudio.com/)
-
-- With the files open in Visual Studio Code, press the **Go Live** button at the bottom of the window to launch the files with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
-
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
+```
+--->
 
 ### Install
 
 Install this project with:
 
-The following tools help make easier to work with sample code.
+<!--
+Example command:
 
-- [git](https://git-scm.com/downloads): A tool for managing source code
-- [Visual Studio Code](https://code.visualstudio.com/): A source code editor
-- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): A simple web server utility for Visual Studio Code
-
+```sh
+  cd my-project
+  gem install
+```
+--->
 
 ### Usage
 
 To run the project, execute the following command:
 
-clone the file and run in your machin using 
+<!--
+Example command:
+
+```sh
+  rails server
+```
+--->
 
 ### Run tests
 
 To run tests, run the following command:
 
-follow the major process and run and test in your maachin
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
 
 ### Deployment
 
 You can deploy this project using:
 
-nitfy
+<!--
+Example:
+
+```sh
+
+```
+ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -134,15 +203,19 @@ nitfy
 
 ## 👥 Authors <a name="authors"></a>
 
+> Mention all of the collaborators of this project.
 
 👤 **Author1**
 
-- GitHub: [@kirube1992](https://github.com/kirube1992)
-- Twitter: [@kirubel](https://twitter.com/kirubel08)
-- LinkedIn: [kirubel92](https://linkedin.com/in/kirubel23)
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 👤 **Author2**
 
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,9 +223,11 @@ nitfy
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[popup maniu]**
-- [ ] **[desktop view]**
-- [ ] **[contact]**
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[new_feature_1]**
+- [ ] **[new_feature_2]**
+- [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -170,7 +245,9 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project and to give advise am happy to meet you
+> Write a message to encourage readers to support your project
+
+If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -178,7 +255,9 @@ If you like this project and to give advise am happy to meet you
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
- would like to thank all my cooding partners and reviewers
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -186,11 +265,15 @@ If you like this project and to give advise am happy to meet you
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
+> Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[is you use semantic html]**
+- **[Question_1]**
 
-  - [yes]
+  - [Answer_1]
 
+- **[Question_2]**
+
+  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -200,6 +283,6 @@ If you like this project and to give advise am happy to meet you
 
 This project is [MIT](./LICENSE) licensed.
 
-https://github.com/kirube1992/Hello-Microverse/compare/main...add-license-1?quick_pull=1
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
