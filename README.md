@@ -83,6 +83,8 @@ you don't need ant thing
 ### Setup
 
 Clone this repository to your desired folder:
+by going to the code bar and click code button and press copy
+and pest in your CMD
 
 
 ### Install
@@ -94,7 +96,8 @@ any installer softwere
 ### Usage
 
 To run the project, execute the following command:
-you must clone the file first
+by save in you'r folder and chose one browser and open the index.html
+in that browesr.
 
 ### Run tests
 
@@ -124,9 +127,9 @@ your broether
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[i will add more txt]**
-- [ ] **[with css files]**
-- [ ] **[i will make it daynamic]**
+- [ ] **[contact]**
+- [ ] **[decktop view]**
+- [ ] **[popup maniu]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
