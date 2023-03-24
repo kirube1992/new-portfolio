@@ -37,7 +37,7 @@
 
 # 📖 [hello microvers] <a name="about-project"></a>
 
-**[hello microverse]** is a portfolio project that have two parts the navgation bar and main part
+**[hello microverse]** is a simple html and css that display for hello microverses
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -71,6 +71,7 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -83,21 +84,18 @@ you don't need ant thing
 ### Setup
 
 Clone this repository to your desired folder:
-by going to the code bar and click code button and press copy
-and pest in your CMD
 
 
 ### Install
 
 Install this project with:
 
-any installer softwere
+your pc
 
 ### Usage
 
 To run the project, execute the following command:
-by save in you'r folder and chose one browser and open the index.html
-in that browesr.
+you must clone the file first
 
 ### Run tests
 
@@ -127,9 +125,9 @@ your broether
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[contact]**
-- [ ] **[decktop view]**
-- [ ] **[popup maniu]**
+- [ ] **[i will add more txt]**
+- [ ] **[with css files]**
+- [ ] **[i will make it daynamic]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -163,6 +161,7 @@ I would like to thank all my cooding partners and reviewers
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
+> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **[is you use semantic html]**
 
