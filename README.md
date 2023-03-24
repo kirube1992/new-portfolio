@@ -83,7 +83,8 @@ you don't need ant thing
 ### Setup
 
 Clone this repository to your desired folder:
-
+go to the project in githup and chose code and make clone ssh key
+filnaly past in your CMD and open using your editor 
 
 ### Install
 
@@ -99,7 +100,8 @@ you must clone the file first
 ### Run tests
 
 To run tests, run the following command:
-git commands
+save in you folder and chose one browser and
+pest index.html
 
 ### Deployment
 
@@ -124,9 +126,9 @@ your broether
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[i will add more txt]**
-- [ ] **[with css files]**
-- [ ] **[i will make it daynamic]**
+- [ ] **[contact]**
+- [ ] **[popup maniu]**
+- [ ] **[desktop view]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
