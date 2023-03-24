@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
@@ -35,43 +35,48 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [hello microvers] <a name="about-project"></a>
+# 📖 [portfolio] <a name="about-project"></a>
 
-**[hello microverse]** is a simple html and css that display for hello microverses
+**[your_project__name]** is a portfolio project, it's static website with simple html and css
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
+
+
 <details>
-  <summary>css</summary>
+  <summary>HTML</summary>
   <ul>
-    <li><a href="https://mdncss.com/">Css</a></li>
+    <li><a href="https://reactjs.org/">HTML</a></li>
   </ul>
 </details>
 
 <details>
-<summary>html</summary>
+  <summary>css</summary>
   <ul>
-    <li><a href="https://www.mdn.org/">htmlL</a></li>
+    <li><a href="https://expressjs.com/">css</a></li>
   </ul>
 </details>
+
+<details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[use linter]**
-- **[semantic html]**
-- **[proper order]**
+> Describe between 1-3 key features of the application.
+
+- **[linter]**
+- **[github work flow]**
+- **[mobile first aproch]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -79,33 +84,49 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-you don't need ant thing
+Basic knowledge of HTML, CSS, and JavaScript
 
 ### Setup
 
 Clone this repository to your desired folder:
+
+If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
+
+[Download the ZIP from this location](https://github.com/kirube1992/new-portfolio/archive/refs/heads/main.zip), or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
+git clone https://github.com/kirube1992/new-portfolio.git
+- Once the files are on your machine, open the _new-portfolio_ folder in [Visual Studio Code](https://code.visualstudio.com/)
+
+- With the files open in Visual Studio Code, press the **Go Live** button at the bottom of the window to launch the files with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
 
 ### Install
 
 Install this project with:
 
-your pc
+The following tools help make easier to work with sample code.
+
+- [git](https://git-scm.com/downloads): A tool for managing source code
+- [Visual Studio Code](https://code.visualstudio.com/): A source code editor
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): A simple web server utility for Visual Studio Code
+
 
 ### Usage
 
 To run the project, execute the following command:
-you must clone the file first
+
+clone the file and run in your machin using 
 
 ### Run tests
 
 To run tests, run the following command:
-git commands
+
+follow the major process and run and test in your maachin
 
 ### Deployment
 
 You can deploy this project using:
-your broether
+
+nitfy
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,11 +134,15 @@ your broether
 
 ## 👥 Authors <a name="authors"></a>
 
+
 👤 **Author1**
 
 - GitHub: [@kirube1992](https://github.com/kirube1992)
 - Twitter: [@kirubel](https://twitter.com/kirubel08)
 - LinkedIn: [kirubel92](https://linkedin.com/in/kirubel23)
+
+👤 **Author2**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,9 +150,9 @@ your broether
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[i will add more txt]**
-- [ ] **[with css files]**
-- [ ] **[i will make it daynamic]**
+- [ ] **[popup maniu]**
+- [ ] **[desktop view]**
+- [ ] **[contact]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -153,7 +178,7 @@ If you like this project and to give advise am happy to meet you
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank all my cooding partners and reviewers
+ would like to thank all my cooding partners and reviewers
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -161,7 +186,6 @@ I would like to thank all my cooding partners and reviewers
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **[is you use semantic html]**
 
@@ -175,4 +199,7 @@ I would like to thank all my cooding partners and reviewers
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
 https://github.com/kirube1992/Hello-Microverse/compare/main...add-license-1?quick_pull=1
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
