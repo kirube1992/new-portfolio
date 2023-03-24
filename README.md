@@ -35,18 +35,13 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [portfolio] <a name="about-project"></a>
+# 📖 [new-portfolio] <a name="about-project"></a>
 
-
-**[your_project__name]** is a portfolio project, it's static website with simple html and css
-
-
+**[new-portfolio]** is a is a portfolio project, it's static website with simple html and css
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-
 
 <details>
   <summary>HTML</summary>
@@ -62,20 +57,15 @@
   </ul>
 </details>
 
-<details>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **[linter]**
 - **[github work flow]**
 - **[mobile first aproch]**
-
+- 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- GETTING STARTED -->
 
@@ -101,8 +91,9 @@ git clone https://github.com/kirube1992/new-portfolio.git
 
 - With the files open in Visual Studio Code, press the **Go Live** button at the bottom of the window to launch the files with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
-
 ### Install
+
+Install this project with:
 
 Install this project with:
 
@@ -112,14 +103,17 @@ The following tools help make easier to work with sample code.
 - [Visual Studio Code](https://code.visualstudio.com/): A source code editor
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): A simple web server utility for Visual Studio Code
 
-
 ### Usage
 
 To run the project, execute the following command:
 
-clone the file and run in your machin using 
+To run the project, execute the following command:
+
+clone the file and run in your machin using
 
 ### Run tests
+
+To run tests, run the following command:
 
 To run tests, run the following command:
 
@@ -129,7 +123,10 @@ follow the major process and run and test in your maachin
 
 You can deploy this project using:
 
+You can deploy this project using:
+
 nitfy
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,14 +141,13 @@ nitfy
 - Twitter: [@kirubel](https://twitter.com/kirubel08)
 - LinkedIn: [kirubel92](https://linkedin.com/in/kirubel23)
 
-👤 **Author2**
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[popup maniu]**
 - [ ] **[desktop view]**
@@ -189,11 +185,9 @@ If you like this project and to give advise am happy to meet you
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-
 - **[is you use semantic html]**
 
   - [yes]
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
