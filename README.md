@@ -1,13 +1,5 @@
 <a name="readme-top"></a>
 
-<div align="center">
-
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -85,11 +77,6 @@ Clone this repository to your desired folder:
 
 If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
 
-[Download the ZIP from this location](https://github.com/kirube1992/new-portfolio/archive/refs/heads/main.zip), or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
-git clone https://github.com/kirube1992/new-portfolio.git
-- Once the files are on your machine, open the _new-portfolio_ folder in [Visual Studio Code](https://code.visualstudio.com/)
-
-- With the files open in Visual Studio Code, press the **Go Live** button at the bottom of the window to launch the files with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
 ### Install
 
@@ -147,8 +134,6 @@ nitfy
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
 - [ ] **[popup maniu]**
 - [ ] **[desktop view]**
 - [ ] **[contact]**
@@ -196,8 +181,6 @@ If you like this project and to give advise am happy to meet you
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-https://github.com/kirube1992/Hello-Microverse/compare/main...add-license-1?quick_pull=1
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
