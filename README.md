@@ -37,7 +37,7 @@
 
 # 📖 [portfolio] <a name="about-project"></a>
 
-**[your_project__name]** is a portfolio project, it's static website with simple html and css
+**[portfolio]** is a portfolio project, it's static website with simple html and css
 
 ## 🛠 Built With <a name="built-with"></a>
 
