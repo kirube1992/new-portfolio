@@ -174,14 +174,14 @@ section ul {
 }
 
 .language {
-  color: #000;
+  color: #000000;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
 }
 
 .abimg {
-  width: 48px;
+  width: 47px;
   display: flex;
   flex-direction: column;
   margin: 9px;
