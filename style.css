@@ -147,7 +147,7 @@ img {
 
 .work1-item3 {
   color: #344563;
-  font-weight: 600;
+  font-weight: 200;
   font-style: 13px;
   list-style-type: none;
   line-height: 16px;
@@ -165,9 +165,11 @@ img {
 
 .work1-link li {
   background-color: #dfe1e6;
-  padding: 0 8px;
+  padding: 4px 8px;
   border-radius: 5px;
   color: #6070ff;
+  width: 92px;
+  height: 24px;
 }
 
 .newlin {
@@ -242,4 +244,8 @@ section ul {
 .abfr1 {
   width: 25px;
   height: 30px;
+}
+
+.body-section1 {
+  margin-bottom: 114px;
 }
