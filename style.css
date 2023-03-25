@@ -93,17 +93,18 @@ a {
 
 .section1,
 .h1 {
-  color: #091e42;
-  font-size: 40px;
+  color: #172b4d;
+  font-size: 32px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 44px;
 }
 
 .oldo {
-  color: #091e42;
-  font-size: 40px;
+  color: #172b4d;
+  font-size: 32px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 44px;
+  margin: 0%;
 }
 
 .section1,
@@ -140,7 +141,7 @@ img {
 }
 
 .work1-item2 {
-  margin: 0 25px;
+  margin: 0 20px;
   color: #7a869a;
 }
 
@@ -163,19 +164,30 @@ img {
 }
 
 .work1-link li {
-  margin: 0 15px;
   background-color: #dfe1e6;
   padding: 0 8px;
   border-radius: 5px;
   color: #6070ff;
 }
 
+.newlin {
+  margin: 0 8px;
+  color: aqua;
+}
+
 .work1 button {
-  margin: 10px;
+  margin: 10px 0;
   padding: 8px;
   color: #6070ff;
   font-weight: 500;
   font-size: 17px;
+  border: 1px solid #6070FF;
+  border-radius: 8px;
+}
+
+.work1 button:hover {
+  background-color: #6070ff;
+  color: #fff;
 }
 
 section ul {
