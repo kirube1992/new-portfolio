@@ -165,11 +165,11 @@ img {
 
 .work1-link li {
   background-color: #dfe1e6;
-  padding: 4px 8px;
   border-radius: 5px;
   color: #6070ff;
-  width: 92px;
-  height: 24px;
+  padding: 4px 12px;
+  /* width: 92px;
+  height: 24px; */
 }
 
 .newlin {
