@@ -1,13 +1,5 @@
 <a name="readme-top"></a>
 
-<div align="center">
-
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -23,14 +15,12 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  - [Run linters](#run-linters)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -43,28 +33,26 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<details>
-  <summary>HTML</summary>
   <ul>
-    <li><a href="https://reactjs.org/">HTML</a></li>
+    <li>HTML</li>
+     <li>CSS</li>
   </ul>
-</details>
 
-<details>
-  <summary>css</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">css</a></li>
-  </ul>
-</details>
+
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[linter]**
-- **[github work flow]**
-- **[mobile first aproch]**
-- 
+- **linter**
+- **github work flow**
+- **mobile first aproch**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Coming soon 🎈]()
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -83,50 +71,39 @@ Basic knowledge of HTML, CSS, and JavaScript
 
 Clone this repository to your desired folder:
 
-If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
+```sh
+  cd my-folder
+  git clone git@github.com:kirube1992/new-portfolio.git
+  ```
 
-[Download the ZIP from this location](https://github.com/kirube1992/new-portfolio/archive/refs/heads/main.zip), or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
-git clone https://github.com/kirube1992/new-portfolio.git
-- Once the files are on your machine, open the _new-portfolio_ folder in [Visual Studio Code](https://code.visualstudio.com/)
-
-- With the files open in Visual Studio Code, press the **Go Live** button at the bottom of the window to launch the files with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
 ### Install
 
-Install this project with:
+Install this project dependencies with:
 
-Install this project with:
 
-The following tools help make easier to work with sample code.
-
-- [git](https://git-scm.com/downloads): A tool for managing source code
-- [Visual Studio Code](https://code.visualstudio.com/): A source code editor
-- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): A simple web server utility for Visual Studio Code
+```sh
+  cd new-portfolio
+  npm install
+```
 
 ### Usage
+To run the application, run the following command:
 
-To run the project, execute the following command:
+Open the `index.html` file in your browser
 
-To run the project, execute the following command:
-
-clone the file and run in your machin using
-
-### Run tests
+### Run Linters
 
 To run tests, run the following command:
+***Webhint***
+```sh
+  npx hint .
+```
 
-To run tests, run the following command:
-
-follow the major process and run and test in your maachin
-
-### Deployment
-
-You can deploy this project using:
-
-You can deploy this project using:
-
-nitfy
-
+***Stylelint***
+```sh
+  npx stylelint "**/*.{css,scss}" 
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,11 +124,9 @@ nitfy
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[popup maniu]**
-- [ ] **[desktop view]**
-- [ ] **[contact]**
+-  **Popup maniu**
+-  **Desktop view**
+-  **Contact**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -181,23 +156,12 @@ If you like this project and to give advise am happy to meet you
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-- **[is you use semantic html]**
-
-  - [yes]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-https://github.com/kirube1992/Hello-Microverse/compare/main...add-license-1?quick_pull=1
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
