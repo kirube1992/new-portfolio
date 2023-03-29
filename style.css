@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
   display: grid;
@@ -132,7 +132,7 @@ img {
   color: #172b4d;
   font-size: 32px;
   font-weight: 700;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 44px;
 }
 
@@ -252,4 +252,82 @@ section ul {
 
 .item12 {
   color: #7f8cff;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./images/contact\ form\ shapes-mobile@1x.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-color: #6070ff;
+  background-position: top 0 right 0;
+  border-top-left-radius: 60px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 13px;
+}
+
+.me {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  margin-top: 60px;
+}
+
+.mep {
+  color: #ebebff;
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  margin: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+input {
+  padding: 8px 5px;
+  color: #cfd8dc;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  margin: 8px 0;
+}
+
+textarea {
+  padding: 8px 5px;
+  color: #cfd8dc;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  height: 100px;
+  margin: 5px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  width: 122px;
+  height: 48px;
+  left: 24px;
+}
+
+.btn button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.limg {
+  color: #0d151e;
+  width: 130px;
+  height: 5px;
+  left: calc(50% - 134px / 2 - 0.5px);
+  bottom: 8px;
+  margin-left: 65px;
 }
