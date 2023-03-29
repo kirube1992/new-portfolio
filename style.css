@@ -258,9 +258,11 @@ section ul {
   display: flex;
   flex-direction: column;
   background-image: url(./images/contact\ form\ shapes-mobile@1x.png);
-  background-size: 109%;
+  background-size: 50%;
   background-repeat: no-repeat;
   background-color: #6070ff;
+  background-position: top 0 right 0;
+  border-top-left-radius: 60px ;
 }
 
 form {
@@ -295,7 +297,7 @@ input {
   color: #cfd8dc;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  margin: 5px 0;
+  margin: 8px 0;
 }
 
 textarea {
@@ -305,6 +307,7 @@ textarea {
   border-radius: 8px;
   height: 100px;
   margin: 5px 0;
+  font-family: 'Poppins';
 }
 
 .btn {
@@ -318,4 +321,13 @@ textarea {
 .btn button:hover {
   background-color: #6070ff;
   color: #fff;
+}
+
+.limg {
+  color:#0d151e;
+  width: 130px;
+  height: 5px;
+  left: calc(50% - 134px/2 - 0.5px);
+  bottom: 8px;
+  margin-left: 65px;
 }
