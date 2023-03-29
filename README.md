@@ -1,13 +1,5 @@
 <a name="readme-top"></a>
 
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -23,47 +15,43 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  - [Run linters](#run-linters)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [hello microvers] <a name="about-project"></a>
+# 📖 [new-portfolio] <a name="about-project"></a>
 
-**[hello microverse]** is a simple html and css that display for hello microverses
+**[new-portfolio]** is a is a portfolio project, it's static website with simple html and css
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<details>
-  <summary>css</summary>
   <ul>
-    <li><a href="https://mdncss.com/">Css</a></li>
+    <li>HTML</li>
+     <li>CSS</li>
   </ul>
-</details>
 
-<details>
-<summary>html</summary>
-  <ul>
-    <li><a href="https://www.mdn.org/">htmlL</a></li>
-  </ul>
-</details>
+
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[use linter]**
-- **[semantic html]**
-- **[proper order]**
+- **linter**
+- **github work flow**
+- **mobile first aproch**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Coming soon 🎈]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -71,47 +59,58 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-you don't need ant thing
+Basic knowledge of HTML, CSS, and JavaScript
 
 ### Setup
 
 Clone this repository to your desired folder:
 
+```sh
+  cd my-folder
+  git clone git@github.com:kirube1992/new-portfolio.git
+  ```
+
 
 ### Install
 
-Install this project with:
+Install this project dependencies with:
 
-your pc
+
+```sh
+  cd new-portfolio
+  npm install
+```
 
 ### Usage
+To run the application, run the following command:
 
-To run the project, execute the following command:
-you must clone the file first
+Open the `index.html` file in your browser
 
-### Run tests
+### Run Linters
 
 To run tests, run the following command:
-git commands
+***Webhint***
+```sh
+  npx hint .
+```
 
-### Deployment
-
-You can deploy this project using:
-your broether
+***Stylelint***
+```sh
+  npx stylelint "**/*.{css,scss}" 
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
+
 
 👤 **Author1**
 
@@ -125,9 +124,9 @@ your broether
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[i will add more txt]**
-- [ ] **[with css files]**
-- [ ] **[i will make it daynamic]**
+-  **Popup maniu**
+-  **Desktop view**
+-  **Contact**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -153,26 +152,16 @@ If you like this project and to give advise am happy to meet you
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank all my cooding partners and reviewers
+ would like to thank all my cooding partners and reviewers
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[is you use semantic html]**
-
-  - [yes]
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-https://github.com/kirube1992/Hello-Microverse/compare/main...add-license-1?quick_pull=1
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
