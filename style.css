@@ -257,9 +257,65 @@ section ul {
 .contact {
   display: flex;
   flex-direction: column;
+  background-image: url(./images/contact\ form\ shapes-mobile@1x.png);
+  background-size: 109%;
+  background-repeat: no-repeat;
+  background-color: #6070ff;
 }
 
 form {
   display: flex;
   flex-direction: column;
+  margin: 0 13px;
+}
+
+.me {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  margin-top: 60px;
+}
+
+.mep {
+  color: #ebebff;
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  margin: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+input {
+  padding: 8px 5px;
+  color: #cfd8dc;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  margin: 5px 0;
+}
+
+textarea {
+  padding: 8px 5px;
+  color: #cfd8dc;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  height: 100px;
+  margin: 5px 0;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  width: 122px;
+  height: 48px;
+  left: 24px;
+}
+
+.btn button:hover {
+  background-color: #6070ff;
+  color: #fff;
 }
