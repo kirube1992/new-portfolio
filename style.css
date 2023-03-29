@@ -262,7 +262,7 @@ section ul {
   background-repeat: no-repeat;
   background-color: #6070ff;
   background-position: top 0 right 0;
-  border-top-left-radius: 60px ;
+  border-top-left-radius: 60px;
 }
 
 form {
@@ -283,7 +283,7 @@ form {
   color: #ebebff;
   display: flex;
   justify-content: center;
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -307,7 +307,7 @@ textarea {
   border-radius: 8px;
   height: 100px;
   margin: 5px 0;
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
 }
 
 .btn {
@@ -324,10 +324,10 @@ textarea {
 }
 
 .limg {
-  color:#0d151e;
+  color: #0d151e;
   width: 130px;
   height: 5px;
-  left: calc(50% - 134px/2 - 0.5px);
+  left: calc(50% - 134px / 2 - 0.5px);
   bottom: 8px;
   margin-left: 65px;
 }
