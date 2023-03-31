@@ -117,9 +117,11 @@ a {
 
   .work1,
   .work1-li1,
-  .oldo, button {
+  .oldo,
+  button {
     margin: 40px 0;
   }
+
   .work1-link {
     margin-bottom: 20px;
   }
@@ -191,7 +193,6 @@ a {
     width: 447px;
     height: 395px;
   }
-
 }
 
 @media only screen and (max-width: 768px) {
