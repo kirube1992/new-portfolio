@@ -71,8 +71,7 @@ a {
     width: auto;
     margin-left: 0;
     background-color: #fff;
-    border-bottom-left-radius:55px;
-    width: 100%;
+    border-bottom-left-radius: 55px;
     height: 846px;
   }
 
@@ -116,7 +115,9 @@ a {
     height: 448px;
   }
 
-  .work1, .work1-li1, .oldo, button {
+  .work1,
+  .work1-li1,
+  .oldo, button {
     margin: 40px 0;
   }
   .work1-link {
@@ -137,7 +138,7 @@ a {
     align-items: flex-start;
     margin-left: 0;
     background-color: #fff;
-    border-top-right-radius:75px;
+    border-top-right-radius: 75px;
     width: 1340px;
     height: 580px;
   }
@@ -189,7 +190,8 @@ a {
   .last {
     width: 447px;
     height: 395px;
-  } 
+  }
+
 }
 
 @media only screen and (max-width: 768px) {
