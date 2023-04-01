@@ -68,7 +68,6 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: auto;
     margin-left: 0;
     background-color: #fff;
     border-bottom-left-radius: 55px;
@@ -98,14 +97,14 @@ a {
 
   .back {
     background-color: #fff;
-    margin: 40px 70px;
+    margin: 40px 90px;
     display: flex;
     border-radius: 15px;
     background-size: cover;
   }
 
   .bodydiv {
-    width: 614px;
+    /* width: 614px; */
     height: 448px;
     padding: 24px;
   }
@@ -167,13 +166,13 @@ a {
   .contact {
     display: flex;
     flex-direction: column;
-    background-image: url(./images/contact\ form\ background\ shapes@1x.png);
-    width: 1340px;
-    height: 646px;
+    background-image: url(./images/kiru2.png);
     background-size: 100%;
+    /* width: 1290.66px;
+    height: 718.7px; */
     background-repeat: no-repeat;
     background-color: #6070ff;
-    border-top-left-radius: 60px;
+    border-top-left-radius: 150px;
     align-items: center;
   }
 
@@ -189,10 +188,16 @@ a {
     display: none;
   }
 
-  .last {
+  .abla {
+    width: 122px;
+    height: 120px;
+  }
+
+  /* .last {
+    background-image: url(./images/kiru2.png);
     width: 447px;
     height: 395px;
-  }
+  } */
 }
 
 @media only screen and (max-width: 768px) {
@@ -211,6 +216,62 @@ a {
 
   .pp {
     max-width: 250px;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/tttt.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-color: #6070ff;
+    background-position: top 0 right 0;
+    border-top-left-radius: 60px;
+  }
+
+  .abla {
+    display: flex;
+    width: 303px;
+    height: 66.72px;
+  }
+
+  .abla1 {
+    background-color: #f7f7f9;
+    margin: 35px;
+    border-radius: 5px;
+  }
+  
+  .abla2 {
+    background-color: #f7f7f9;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  .abla3 {
+    background-color: #f7f7f9;
+    margin: 5px;
+    border-radius: 5px;
+  }
+
+  .abfr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .abfr1 {
+    width: 25px;
+    height: 30px;
+  }
+
+  .abimg {
+    width: 17px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+    width: 48px;
+    height: 48px;
+    margin: 10px;
   }
 }
 
@@ -344,13 +405,6 @@ section ul {
   flex-direction: column;
 }
 
-.abla {
-  display: flex;
-  flex-direction: column;
-  width: 122px;
-  height: 120px;
-}
-
 .abla1 {
   background-color: #f7f7f9;
   margin: 5px;
@@ -389,17 +443,6 @@ section ul {
   color: #7f8cff;
 }
 
-.contact {
-  display: flex;
-  flex-direction: column;
-  background-image: url(./images/contact\ form\ background\ shapes@1x.png);
-  background-size: 50%;
-  background-repeat: no-repeat;
-  background-color: #6070ff;
-  background-position: top 0 right 0;
-  border-top-left-radius: 60px;
-}
-
 form {
   display: flex;
   flex-direction: column;
@@ -412,6 +455,8 @@ form {
   justify-content: center;
   margin: 0;
   margin-top: 60px;
+  font-size: 40px;
+  line-height: 52px;
 }
 
 .mep {
