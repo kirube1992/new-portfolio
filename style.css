@@ -97,14 +97,13 @@ a {
 
   .back {
     background-color: #fff;
-    margin: 40px 90px;
+    margin: 40px 80px;
     display: flex;
     border-radius: 15px;
     background-size: cover;
   }
 
   .bodydiv {
-    /* width: 614px; */
     height: 448px;
     padding: 24px;
   }
@@ -114,7 +113,6 @@ a {
     height: 448px;
   }
 
-  .work1,
   .work1-li1,
   .oldo,
   button {
@@ -142,6 +140,7 @@ a {
     border-top-right-radius: 75px;
     width: 1340px;
     height: 580px;
+    margin-top: 100px;
   }
 
   .about12 {
@@ -203,7 +202,7 @@ a {
   }
 
   .body-section {
-    background-size: 108%;
+    background-size: 100%;
   }
 
   .pp {
