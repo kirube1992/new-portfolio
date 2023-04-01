@@ -168,8 +168,6 @@ a {
     flex-direction: column;
     background-image: url(./images/kiru2.png);
     background-size: 100%;
-    /* width: 1290.66px;
-    height: 718.7px; */
     background-repeat: no-repeat;
     background-color: #6070ff;
     border-top-left-radius: 150px;
@@ -192,12 +190,6 @@ a {
     width: 122px;
     height: 120px;
   }
-
-  /* .last {
-    background-image: url(./images/kiru2.png);
-    width: 447px;
-    height: 395px;
-  } */
 }
 
 @media only screen and (max-width: 768px) {
@@ -258,14 +250,13 @@ a {
     justify-content: space-between;
     align-items: center;
   }
-  
+
   .abfr1 {
     width: 25px;
     height: 30px;
   }
 
   .abimg {
-    width: 17px;
     display: flex;
     flex-direction: column;
     display: none;
