@@ -350,7 +350,7 @@ img {
 }
 
 .work1-link {
-  display: flex;
+  /* display: flex; */
   list-style-type: none;
 }
 
@@ -359,6 +359,7 @@ img {
   border-radius: 5px;
   color: #6070ff;
   padding: 4px 12px;
+  float: left;
 }
 
 .newlin {
