@@ -375,7 +375,7 @@ button {
   border: 1px solid #6070ff;
   border-radius: 8px;
   background-color: #fff;
-  transition: width 2s, height 2s, background-color 1s;
+  transition: width 3s, height 3s, background-color 2s;
 }
 
 button:hover {
@@ -504,5 +504,5 @@ textarea {
   height: 5px;
   left: calc(50% - 134px / 2 - 0.5px);
   bottom: 8px;
-  margin-left: 65px;
+  margin-left: 50px;
 }
