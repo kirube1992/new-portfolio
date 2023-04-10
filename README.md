@@ -51,7 +51,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Coming soon 🎈]()
+- (https://kirube1992.github.io/new-portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
