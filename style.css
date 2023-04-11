@@ -375,7 +375,7 @@ button {
   border: 1px solid #6070ff;
   border-radius: 8px;
   background-color: #fff;
-  transition: width 2s, height 2s, background-color 1s;
+  transition: width 3s, height 3s, background-color 2s;
 }
 
 button:hover {
