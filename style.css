@@ -6,6 +6,7 @@ body {
   grid-template-rows: auto auto;
   background-color: #f4f5f7;
   background-size: 100%;
+  margin: 0;
 }
 
 .body-section {
