@@ -1,7 +1,7 @@
-
 const hamburguer = document.querySelector('.breadcrumb');
 const Menu = document.querySelector('.desktop-nav');
 const main = document.querySelector('#portfolio');
+
 hamburguer.addEventListener('click', () => {
   hamburguer.classList.toggle('active');
   Menu.classList.toggle('active');
