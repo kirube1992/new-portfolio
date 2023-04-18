@@ -65,7 +65,7 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  .toggle {
+  .breadcrumb {
     display: none;
   }
 
@@ -179,7 +179,8 @@ a {
   }
 
   .bten {
-    margin-left: 150px;
+    display: flex;
+    justify-content: center;
   }
 
   .mep {
