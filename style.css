@@ -107,7 +107,6 @@ a {
   .work1 {
     display: grid;
     grid-template-rows: auto auto;
-    size: 100%;
   }
 
   .back {
@@ -235,7 +234,6 @@ a {
   transform: translateY(-8px) rotate(-45deg);
   background-color: white;
 }
-
 
 .desktop-nav {
   list-style: none;
