@@ -260,7 +260,7 @@ a {
     transition: 0.3s;
     z-index: 4;
   }
-  
+
   .desktop-nav.active {
     left: 0;
   }
