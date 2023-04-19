@@ -6,7 +6,6 @@ body {
   grid-template-rows: auto auto;
   background-color: #f4f5f7;
   background-size: 100%;
-  margin: 0;
 }
 
 .body-section {
@@ -44,7 +43,7 @@ a {
 
 .item {
   color: #344563;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 15px;
   line-height: 20px;
 }
@@ -250,6 +249,15 @@ a {
   text-align: center;
   transition: 0.3s;
   z-index: 4;
+}
+
+.st {
+  list-style-type: none;
+  display: flex;
+}
+
+.st1 {
+  list-style-type: none;
 }
 
 .desktop-nav.active {
