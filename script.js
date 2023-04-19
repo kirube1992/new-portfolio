@@ -9,6 +9,6 @@ hamburguer.addEventListener('click', () => {
 });
 
 document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
-  hamburguer.classList.toggle('active');
-  Menu.classList.toggle('active');
+  hamburguer.classList.remove('active');
+  Menu.classList.remove('active');
 }));
