@@ -6,6 +6,7 @@ body {
   grid-template-rows: auto auto;
   background-color: #f4f5f7;
   background-size: 100%;
+  margin: 0;
 }
 
 .body-section {
@@ -43,7 +44,7 @@ a {
 
 .item {
   color: #344563;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 15px;
   line-height: 20px;
 }
