@@ -20,16 +20,20 @@
         <div>
           <li class="logo"><a href="">My Logo</a></li>
         </div>
-        <div class="menu2">
-          <li class="item"><a href="#">Portfoilo</a></li>
-          <li class="item"><a href="#">about</a></li>
-          <li class="item"><a href="#">contact</a></li>
-          <li class="toggle"><a href=""><img src="./images/Icon - Menu.png" alt="humberger menu image"></a></li>
+        <div class="desktop-nav">
+          <li class="nav-link"><a href="#portfolio">Portfolio</a></li>
+          <li class="nav-link"><a href="#about">about</a></li>
+          <li class="nav-link"><a href="#contact">contact</a></li>
         </div>
+        <div class="breadcrumb">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div> 
     </ul>
 </nav>
 </header>
-  <section class="body-section body-section1">
+  <section id="portfolio" class="body-section body-section1">
     <div class="bsm">
       <h1 class="item1 h1">I’m Kirubel. Glad to see you!</h1>
         <p class="item1 p">I’m a software developer! I can help you build a product , 
@@ -68,7 +72,7 @@
       <li class="newlin">CSS</li>
       <li class="newlin">JavaScript</li>
       </div>
-      <button>See Project</button>
+      <button type="button">See Project</button>
     </ul>
     </div>
   </div>
@@ -92,7 +96,7 @@
       <li class="newlin">JavaScript</li>
       </div>
     </ul>
-      <button>See Project</button>
+      <button type="button">See Project</button>
     </div>
     <img class="work1-img bodydiv" src="./images/port.png" alt="snapshot of website">
   </div>
@@ -119,7 +123,7 @@
           <li class="newlin">JavaScript</li>
           </div>
           </ul>
-          <button>See Project</button>
+          <button type="button">See Project</button>
         </div>
       </div>
       <div class="back">
@@ -141,12 +145,12 @@
           <li class="newlin">JavaScript</li>
           </div>
         </ul>
-          <button>See Project</button>
+          <button type="button">See Project</button>
         </div>
         <img class="work1-img bodydiv" src="./images/Snapshoot Portfolio.png" alt="snapshot of website">
       </div>
   </section>
-    <section class="body-section12">
+    <section id="about" class="body-section12">
       <div class="about1">
         <div class="about12 about123">
         <p class="item1 h1 oldo">About Myself</p>
@@ -162,7 +166,7 @@
             <li class="item1"><a href="#"><img src="./images/Vector (1).png" alt="vector logo imge"></a></li>
             <li class="item1"><a href="#"><img src="./images/angellist.png" alt=" adgelist logo image"></a></li>
           </div>
-          <button>Get My Resume</button>
+          <button type="button">Get My Resume</button>
         </div>
         <div class="about12 about124">
           <div class="abfr">
@@ -194,7 +198,7 @@
         </div>
         </div>
     </section>
-    <div class="contact">
+    <div id="contact" class="contact">
       <div class="last">
       <h2 class="me">Contact me</h2>
       <p class="mep">If you have an application you are interested in developing, a feature
@@ -211,5 +215,6 @@
     </form>
   </div>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
