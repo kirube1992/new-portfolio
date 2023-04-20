@@ -162,6 +162,6 @@ If you like this project and to give advise am happy to meet you
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-https://github.com/kirube1992/Hello-Microverse/compare/main...add-license-1?quick_pull=1
+https://github.com/kirube1992/new-portfolio/commit/a91bee96d3de1e2febe34195e5a59742a6cf1682
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
