@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="meta-viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Author: Kirubel">
+
     <title>kirubel Portfoilo</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,17 +18,24 @@
 <body>
   <header>
   <nav>
-    <ul class="menu">
-        <div>
-          <li class="logo"><a href="">My Logo</a></li>
-        </div>
-        <div class="menu2">
-          <li class="item"><a href="#">Portfoilo</a></li>
-          <li class="item"><a href="#">about</a></li>
-          <li class="item"><a href="#">contact</a></li>
-          <li class="toggle"><a href=""><img src="./images/Icon - Menu.png" alt="humberger menu image"></a></li>
-        </div>
-    </ul>
+    <div class="menu">
+          <div class="logo"><a href="#">My Logo</a></div>
+        <ul class="desktop-nav st1">
+          <li class="nav-link"><a href="#Portfolio">Portfolio</a></li>
+          <li class="nav-link"><a href="#About">About</a></li>
+          <li class="nav-link"><a href="#Contact">Contact</a></li>
+        </ul>   
+        <ul class="menu2 st">
+          <li class="item"><a href="#Portfolio">Portfolio</a></li>
+          <li class="item"><a href="#About">About</a></li>
+          <li class="item"><a href="#Contact">Contact</a></li>
+        </ul>       
+        <ul class="breadcrumb">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </ul> 
+    </div>
 </nav>
 </header>
   <section class="body-section body-section1">
@@ -38,61 +47,53 @@
             don’t hesitate to contact me.</p>
         <li class="item1 item12" >LET'S CONNECT</li>
         <div class="social">
-          <li class="item1"><a href="#"><img src="./images/twitter.png" alt="Twitter logo image"></a></li>
-          <li class="item1"><a href="#"><img src="./images/Linkedin icon.png" alt="linkedin logo image"></a></li>
-          <li class="item1"><a href="#"><img src="./images/medium.png" alt="medium logo image"></a></li>
-          <li class="item1"><a href="#"><img src="./images/Vector (1).png" alt="vector logo imge"></a></li>
-          <li class="item1"><a href="#"><img src="./images/angellist.png" alt=" adgelist logo image"></a></li>
+          <li class="item1"><a href="#"><img src="./images/twt.svg" alt="Twitter logo image"></a></li>
+          <li class="item1"><a href="#"><img src="./images/lnk.svg" alt="linkedin logo image"></a></li>
+          <li class="item1"><a href="#"><img src="./images/m.svg" alt="medium logo image"></a></li>
+          <li class="item1"><a href="#"><img src="./images/gh.svg" alt="vector logo imge"></a></li>
+          <li class="item1"><a href="#"><img src="./images/pc.svg" alt=" adgelist logo image"></a></li>
         </div>
       </div>
     </ul>
   </section>
-  <section class="work1">
+  <section id="Portfolio" class="work1">
     <div class="back">
       <div>
     <img class="work1-img bodydiv" src="./images/two.png" alt="snapshot of website">
   </div>
     <div  class="bodydiv">
     <p class="oldo">Tonic</p>
-    <ul>
-      <div class="work1-li1">
+      <ul class="work1-li1">
         <li class="work1-item1 work1-item3">CANOPAY</li>
         <li class="work1-item1 work1-item2">Back End Dev</li>
         <li class="work1-item1 work1-item2">2015</li>
-      </div>
       </ul>
        <p class="pp">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-       <ul>
-       <div class="work1-link">
-      <li >HTML</li>
-      <li class="newlin">CSS</li>
-      <li class="newlin">JavaScript</li>
-      </div>
-      <button>See Project</button>
-    </ul>
+       <ul class="work1-link">
+        <li >HTML</li>
+        <li class="newlin">CSS</li>
+        <li class="newlin">JavaScript</li>
+      </ul>
+      <button type="button">See Project</button>
     </div>
   </div>
   <div class="back">
     <div class="bodydiv bodydiv2">
     <p class="oldo">Multi-Post Stories</p>
-    <ul>
-      <div class="work1-li1">
+      <ul class="work1-li1">
         <li class="work1-item1 work1-item3">FACEBOOK</li>
         <li class="work1-item1 work1-item2">Full Stack End Dev</li>
         <li class="work1-item1 work1-item2">2015</li>
-      </div>
       </ul>
        <p class="pp">Experimental content creation feature that allows users to add 
         to an existing story over the course of a day without spamming their friends.</p>
-       <ul>
-       <div class="work1-link">
-      <li >HTML</li>
-      <li class="newlin">Ruby on rails</li>
-      <li class="newlin">CSS</li>
-      <li class="newlin">JavaScript</li>
-      </div>
-    </ul>
-      <button>See Project</button>
+       <ul class="work1-link">
+        <li >HTML</li>
+        <li class="newlin">Ruby on rails</li>
+        <li class="newlin">CSS</li>
+        <li class="newlin">JavaScript</li>
+      </ul>
+      <button type="button">See Project</button>
     </div>
     <img class="work1-img bodydiv" src="./images/port.png" alt="snapshot of website">
   </div>
@@ -102,51 +103,43 @@
       </div>
         <div class="bodydiv bodydiv3">
         <p class="oldo">Facebook 360</p>
-        <ul>
-          <div class="work1-li1">
+          <ul class="work1-li1">
             <li class="work1-item1 work1-item3">FACEBOOK</li>
             <li class="work1-item1 work1-item2">Full stack Dev</li>
             <li class="work1-item1 work1-item2">2015</li>
-          </div>
           </ul>
            <p class="pp">Exploring the future of media in Facebook's first Virtual Reality app;
              a place to discover and enjoy 360 photos and videos on Gear VR.</p>
-           <ul>
-           <div class="work1-link">
+           <ul class="work1-link">
           <li>HTML</li>
           <li class="newlin">Ruby on rails</li>
           <li class="newlin">CSS</li>
           <li class="newlin">JavaScript</li>
-          </div>
           </ul>
-          <button>See Project</button>
+          <button type="button">See Project</button>
         </div>
       </div>
       <div class="back">
         <div class="bodydiv bodydiv2">
         <p class="oldo">Uber Navigation</p>
-        <ul>
-          <div class="work1-li1">
+          <ul class="work1-li1">
             <li class="work1-item1 work1-item3">Uber</li>
             <li class="work1-item1 work1-item2">lead develope</li>
             <li class="work1-item1 work1-item2">2015</li>
-          </div>
           </ul>
           <p class="pp">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-           <ul>
-           <div class="work1-link">
+           <ul class="work1-link">
           <li >HTML</li>
           <li class="newlin">Ruby on rails</li>
           <li class="newlin">CSS</li>
           <li class="newlin">JavaScript</li>
-          </div>
-        </ul>
-          <button>See Project</button>
+          </ul>
+          <button type="button">See Project</button>
         </div>
         <img class="work1-img bodydiv" src="./images/Snapshoot Portfolio.png" alt="snapshot of website">
       </div>
   </section>
-    <section class="body-section12">
+    <section id="About" class="body-section12">
       <div class="about1">
         <div class="about12 about123">
         <p class="item1 h1 oldo">About Myself</p>
@@ -156,18 +149,18 @@
               don’t hesitate to contact me.</p></li>
           <li class="item1 item12" >LET'S CONNECT</li>
           <div class="social">
-            <li class="item1"><a href="#"><img src="./images/twitter.png" alt="Twitter logo image"></a></li>
-            <li class="item1"><a href="#"><img src="./images/Linkedin icon.png" alt="linkedin logo image"></a></li>
-            <li class="item1"><a href="#"><img src="./images/medium.png" alt="medium logo image"></a></li>
-            <li class="item1"><a href="#"><img src="./images/Vector (1).png" alt="vector logo imge"></a></li>
-            <li class="item1"><a href="#"><img src="./images/angellist.png" alt=" adgelist logo image"></a></li>
+          <li class="item1"><a href="#"><img src="./images/twt.svg" alt="Twitter logo image"></a></li>
+          <li class="item1"><a href="#"><img src="./images/lnk.svg" alt="linkedin logo image"></a></li>
+          <li class="item1"><a href="#"><img src="./images/m.svg" alt="medium logo image"></a></li>
+          <li class="item1"><a href="#"><img src="./images/gh.svg" alt="vector logo imge"></a></li>
+          <li class="item1"><a href="#"><img src="./images/pc.svg" alt=" adgelist logo image"></a></li>
           </div>
-          <button>Get My Resume</button>
+          <button type="button">Get My Resume</button>
         </div>
         <div class="about12 about124">
           <div class="abfr">
             <p class="language">Language</p>
-            <img class="abfr1" src="./images/download.png" alt="droupdown icon">
+            <a href="#">V</a>
           </div>
           <div class="auto">
           <div class="abla abla1">
@@ -185,16 +178,16 @@
         </div>
           <div class="abfr">
             <p>FrameWork</p>
-            <img class="abfr1" src="./images/download (1).png" alt="arrow icon">
+            <a href="#">></a>
           </div>
           <div class="abfr">
-            <p>Skill</p>
-            <img class="abfr1" src="./images/download (1).png" alt="arrow icon">
+            <p>Skill</p>            
+            <a href="#">></a>
           </div>
         </div>
         </div>
     </section>
-    <div class="contact">
+    <div id="Contact" class="contact">
       <div class="last">
       <h2 class="me">Contact me</h2>
       <p class="mep">If you have an application you are interested in developing, a feature
@@ -211,5 +204,6 @@
     </form>
   </div>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>

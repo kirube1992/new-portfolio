@@ -6,7 +6,6 @@ body {
   grid-template-rows: auto auto;
   background-color: #f4f5f7;
   background-size: 100%;
-  margin: 0;
 }
 
 .body-section {
@@ -44,9 +43,19 @@ a {
 
 .item {
   color: #344563;
-  font-weight: 700;
+  font-weight: 499;
   font-size: 15px;
   line-height: 20px;
+}
+
+.desktop-nav a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: white;
 }
 
 .menu {
@@ -66,7 +75,7 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  .toggle {
+  .breadcrumb {
     display: none;
   }
 
@@ -98,7 +107,6 @@ a {
   .work1 {
     display: grid;
     grid-template-rows: auto auto;
-    size: 100%;
   }
 
   .back {
@@ -180,7 +188,8 @@ a {
   }
 
   .bten {
-    margin-left: 150px;
+    display: flex;
+    justify-content: center;
   }
 
   .mep {
@@ -195,6 +204,64 @@ a {
     width: 122px;
     height: 120px;
   }
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #6070ff;
+  z-index: 4;
+}
+
+.breadcrumb {
+  z-index: 4;
+}
+
+.breadcrumb.active .bar:nth-child(2) {
+  opacity: 0.5;
+}
+
+.breadcrumb.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+  background-color: white;
+}
+
+.breadcrumb.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+  background-color: white;
+}
+
+.desktop-nav {
+  list-style: none;
+  position: fixed;
+  left: -115%;
+  top: -20px;
+  padding-top: 90px;
+  flex-direction: column;
+  background-color: #6070f7;
+  opacity: 90%;
+  width: 100%;
+  height: 110%;
+  text-align: start;
+  transition: 0.3s;
+  z-index: 4;
+}
+
+.st {
+  list-style-type: none;
+  display: flex;
+}
+
+.st1 {
+  list-style-type: none;
+}
+
+.desktop-nav.active {
+  left: 0;
 }
 
 @media only screen and (max-width: 768px) {
@@ -341,7 +408,6 @@ img {
 .work1-item3 {
   color: #344563;
   font-weight: 200;
-  font-style: 13px;
   list-style-type: none;
   line-height: 16px;
 }
