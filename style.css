@@ -238,7 +238,7 @@ a {
 .desktop-nav {
   list-style: none;
   position: fixed;
-  left: -110%;
+  left: -115%;
   top: -20px;
   padding-top: 90px;
   flex-direction: column;
