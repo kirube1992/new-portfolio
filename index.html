@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Author: Kirubel">
-
     <title>kirubel Portfoilo</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,12 +28,13 @@
           <li class="item"><a href="#Portfolio">Portfolio</a></li>
           <li class="item"><a href="#About">About</a></li>
           <li class="item"><a href="#Contact">Contact</a></li>
-        </ul>       
-        <ul class="breadcrumb">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
         </ul> 
+
+        <div class="breadcrumb">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div> 
     </div>
 </nav>
 </header>
@@ -45,14 +45,14 @@
             feature or website Look through some of my work and experience! 
             If you like what you see and have a project you need coded,
             don’t hesitate to contact me.</p>
-        <li class="item1 item12" >LET'S CONNECT</li>
-        <div class="social">
+        <a class="item1 item12" >LET'S CONNECT</a>
+        <ul class="social">
           <li class="item1"><a href="#"><img src="./images/twt.svg" alt="Twitter logo image"></a></li>
           <li class="item1"><a href="#"><img src="./images/lnk.svg" alt="linkedin logo image"></a></li>
           <li class="item1"><a href="#"><img src="./images/m.svg" alt="medium logo image"></a></li>
           <li class="item1"><a href="#"><img src="./images/gh.svg" alt="vector logo imge"></a></li>
           <li class="item1"><a href="#"><img src="./images/pc.svg" alt=" adgelist logo image"></a></li>
-        </div>
+        </ul>
       </div>
     </ul>
   </section>
@@ -193,11 +193,12 @@
       <p class="mep">If you have an application you are interested in developing, a feature
          that you need built or a project that needs coding.
         I’d love to help with it!</p>
-    <form action="https://formspree.io/f/xyyanzvl" method="post">
+    <form name="contact-form" action="https://formspree.io/f/xyyanzvl" method="post">
       <input name="name" type="text" placeholder="kirubel Aynalem" maxlength="30" required>
       <input name="email" type="email" placeholder="kirubelaynalem92@gmil.com" required>
       <textarea name="text-box" maxlength="500" placeholder="Write your comment here" required></textarea>
-      <div class="bten">
+      <div class="bten">        
+				<span id="mail-error" class="error" hidden> * The email must be lowercase!</span>
       <button class="btn" type="submit">Get in touch</button>
     </div>
       <img class="limg" src="./images/Shape.png" alt="border-bar">
