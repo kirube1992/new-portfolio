@@ -27,3 +27,16 @@ form.addEventListener('submit', (e) => {
     form.submit();
   }
 });
+
+form.addEventListener('change', () => {
+  localStorage.setItem('form', JSON.stringify({
+    name: form.name.value,
+    email: form.email.value,
+    textbox: form.textbox.value,
+  }));
+});
+
+const oldform = JSON.parse(localStorage.getItem('form'));
+form.name.value = oldform.name;
+form.email.value = oldform.email;
+form.textbox.value = oldform.textbox;
