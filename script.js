@@ -2,6 +2,9 @@ const hamburguer = document.querySelector('.breadcrumb');
 const Menu = document.querySelector('.desktop-nav');
 const main = document.querySelector('#portfolio');
 
+const form = document.forms['contact-form'];
+
+const error = document.getElementById('mail-error');
 hamburguer.addEventListener('click', () => {
   hamburguer.classList.toggle('active');
   Menu.classList.toggle('active');
@@ -54,3 +57,17 @@ function  showpUp(id) {
     popup.innerHTML = '';
   });
 }
+
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault()
+  const mail = form.email.value;
+
+	if (mail.toLowerCase() != mail) {
+		error.hidden = false;
+	}
+	else {
+    error.hidden = true;
+    form.submit()
+	}	
+});

@@ -573,3 +573,8 @@ textarea {
   bottom: 8px;
   margin-left: 50px;
 }
+
+.error{
+  background-color: white;
+  color: red;
+}
