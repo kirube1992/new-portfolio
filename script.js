@@ -8,12 +8,12 @@ hamburguer.addEventListener('click', () => {
   main.classList.toggle('blurred');
 });
 
-document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
+document.querySectorAll('.nav-link').forEach((n) => n.addentListener('click', () => {
   hamburguer.classList.remove('active');
   Menu.classList.remove('active');
 }));
 
-function  showPopUp(id) {	
+function  showpUp(id) {	
   let project = projects[id-1]	
   popup.classList.toggle('splash');
   document.body.classList.add('popupstate')
