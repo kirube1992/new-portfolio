@@ -8,7 +8,7 @@ hamburguer.addEventListener('click', () => {
   main.classList.toggle('blurred');
 });
 
-document.querySectorAll('.nav-link').forEach((n) => n.addentListener('click', () => {
+document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
   hamburguer.classList.remove('active');
   Menu.classList.remove('active');
 }));
