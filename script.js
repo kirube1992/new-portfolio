@@ -27,3 +27,11 @@ form.addEventListener('submit', (e) => {
     form.submit();
   }
 });
+
+form.addEventListener('change', () => {
+  localStorage.setItem('form', JSON.stringify({
+    name: form.name.value,
+    email: form.email.value,
+    textbox: form.textbox.value,
+  }));
+});
