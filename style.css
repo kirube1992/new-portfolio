@@ -153,16 +153,27 @@ a {
   padding-bottom: 20px;
 }
 
+.tech-tags li {
+  background-color:#ebebff;
+  border-radius: 5px;
+  color: #6070ff;
+  padding: 4px 12px;
+  font-size: 12px;
+}
+
 .popup .link-tags {
   margin-left: 12px;
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
   row-gap: 14px;
+  margin: 25px;
 }
 
 .popup .text {
   flex-basis: 90%;
+  max-width: 320px;
+  font-size: 15px;
+  line-height: 24px;
 }
 
 .popup aside span {
@@ -171,21 +182,32 @@ a {
   column-gap: 10px;
 }
 
-.popup .big-btn {
-  padding: 1.4em 2.2em;
+.bu-fl {
+  display: flex;
+  border: 1px solid #6070FF;
+  margin-right: 10px;
+  padding: 12px 22px;
   font-size: 15px;
   border-radius: 0.5em;
+  align-items: center;
 }
 
 .popup .due-time {
   color: #7a869a;
   font-weight: 500;
   font-size: 1.5rem;
+  font-size: 15px;
+}
+
+.due-time li {
+  margin-left: 25px;
 }
 
 .popup .company-name {
   color: #344563;
   font-weight: 600;
+  list-style-type: none;
+  margin: 0;
 }
 /* END of mobile popup*/
 /*popup state clases*/
@@ -341,6 +363,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
   }
 
   .splash ul.due-time {
@@ -385,6 +408,8 @@ a {
   .popup .info {
     display: flex;
     flex-direction: row;
+    margin-top: 400px;
+    position:relative;
   }
 
   .popup .live-icon {
@@ -405,6 +430,7 @@ a {
     padding-left: 0;
     margin-bottom: 20px;
     padding-bottom: 20px;
+    color: #6070ff;
   }
 
   .popup .link-tags {
@@ -413,7 +439,21 @@ a {
 
   .popup .text {
     flex-basis: 90%;
+    max-width: 470px;
   }
+
+  .bu-fl {
+    display: flex;
+    border: 1px solid #6070FF;
+    margin-right: 10px;
+    padding: 4px 15px;
+    font-size: 15px;
+    border-radius: 0.5em;
+    align-items: center;
+    width: 102px;
+    height: 40px;
+  }
+
   /* END of desktop popup styles */
 }
 
@@ -477,6 +517,10 @@ a {
 
 @media only screen and (max-width: 768px) {
   .item {
+    display: none;
+  }
+
+  .mob-li {
     display: none;
   }
 
@@ -641,7 +685,6 @@ img {
 
 .newlin {
   margin: 0 8px;
-  color: aqua;
 }
 
 button {
