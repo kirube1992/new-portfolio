@@ -167,3 +167,4 @@ document.querySelectorAll('.project').forEach((n) => n.addEventListener('click',
   showPopUp(id);
   e.preventDefault();
 }));
+
