@@ -16,16 +16,16 @@ const projects = [
        industry. Lorem Ipsum has been the industry's standard dummy text ever 
        since the 1500s, when an unknown printer took a galley of type and 
        scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing 
-       and typesetting industry.\n
+       and typesetting industry.\</br></br>
        Lorem Ipsum has been the industry's standard dummy text ever since 
        the 1500s, when an unknown printer took a galley of type and scrambled it 
        1960s with the releorem Ipsum is simply dummy text of the printing and 
        typesetting industry. Lorem Ipsum han printer took a galley of type and 
        scrambled it 1960s with the releawn printer took a galley of type and 
        scrambled it 1960s.`,
-    techTags: '<li><a href="#">HTML</a></li>\n<li><a href="#">CSS</a></li>\n<li><a href="#">JavaScript</a></li>\n<li><a href="#">Ruby</a></li>\n<li><a href="#">Bootstrap</a></li>',
-    linkLive: 'https://willococa.github.io/portfolio/',
-    linkSource: 'https://github.com/willococa/portfolio',
+    techTags: '<li><a href="#">HTML</a></li>\n<li><a href="#">CSS</a></li>\n<li><a href="#">JavaScript</a></li>\n<li class="mob-li" ><a href="#">Ruby</a></li>\n<li class="mob-li"><a href="#">Bootstrap</a></li>',
+    linkLive: 'https://kirube1992.github.io/new-portfolio/',
+    linkSource: 'https://github.com/kirube1992/new-portfolio',
 
   },
   {
@@ -36,16 +36,16 @@ const projects = [
        industry. Lorem Ipsum has been the industry's standard dummy text ever 
        since the 1500s, when an unknown printer took a galley of type and 
        scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing 
-       and typesetting industry.\n
+       and typesetting industry.\n</br></br>
        Lorem Ipsum has been the industry's standard dummy text ever since 
        the 1500s, when an unknown printer took a galley of type and scrambled it 
        1960s with the releorem Ipsum is simply dummy text of the printing and 
        typesetting industry. Lorem Ipsum han printer took a galley of type and 
        scrambled it 1960s with the releawn printer took a galley of type and 
        scrambled it 1960s.`,
-    techTags: '<li><a href="#">HTML</a></li>\n<li><a href="#">CSS</a></li>\n<li><a href="#">JavaScript</a></li>\n<li><a href="#">Ruby</a></li>\n<li><a href="#">Bootstrap</a></li>',
-    linkLive: 'https://willococa.github.io/portfolio/',
-    linkSource: 'https://github.com/willococa/portfolio',
+    techTags: '<li><a href="#">HTML</a></li>\n<li><a href="#">CSS</a></li>\n<li><a href="#">JavaScript</a></li>\n<li class="mob-li"><a href="#">Ruby</a></li>\n<li class="mob-li"><a href="#">Bootstrap</a></li>',
+    linkLive: 'https://kirube1992.github.io/new-portfolio/',
+    linkSource: 'https://github.com/kirube1992/new-portfolio',
 
   },
   {
@@ -56,16 +56,16 @@ const projects = [
        industry. Lorem Ipsum has been the industry's standard dummy text ever 
        since the 1500s, when an unknown printer took a galley of type and 
        scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing 
-       and typesetting industry.\n
+       and typesetting industry.\n</br></br>
        Lorem Ipsum has been the industry's standard dummy text ever since 
        the 1500s, when an unknown printer took a galley of type and scrambled it 
        1960s with the releorem Ipsum is simply dummy text of the printing and 
        typesetting industry. Lorem Ipsum han printer took a galley of type and 
        scrambled it 1960s with the releawn printer took a galley of type and 
        scrambled it 1960s.`,
-    techTags: '<li><a href="#">HTML</a></li>\n<li><a href="#">CSS</a></li>\n<li><a href="#">JavaScript</a></li>\n<li><a href="#">Ruby</a></li>\n<li><a href="#">Bootstrap</a></li>',
-    linkLive: 'https://willococa.github.io/portfolio/',
-    linkSource: 'https://github.com/willococa/portfolio',
+    techTags: '<li><a href="#">HTML</a></li>\n<li><a href="#">CSS</a></li>\n<li><a href="#">JavaScript</a></li>\n<li class="mob-li"><a href="#">Ruby</a></li>\n<li class="mob-li"><a href="#">Bootstrap</a></li>',
+    linkLive: 'https://kirube1992.github.io/new-portfolio/',
+    linkSource: 'https://github.com/kirube1992/new-portfolio',
 
   },
   {
@@ -76,16 +76,16 @@ const projects = [
        industry. Lorem Ipsum has been the industry's standard dummy text ever 
        since the 1500s, when an unknown printer took a galley of type and 
        scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing 
-       and typesetting industry.\n
+       and typesetting industry.\n</br></br>
        Lorem Ipsum has been the industry's standard dummy text ever since 
        the 1500s, when an unknown printer took a galley of type and scrambled it 
        1960s with the releorem Ipsum is simply dummy text of the printing and 
        typesetting industry. Lorem Ipsum han printer took a galley of type and 
        scrambled it 1960s with the releawn printer took a galley of type and 
        scrambled it 1960s.`,
-    techTags: '<li><a href="#">HTML</a></li>\n<li><a href="#">CSS</a></li>\n<li><a href="#">JavaScript</a></li>\n<li><a href="#">Ruby</a></li>\n<li><a href="#">Bootstrap</a></li>',
-    linkLive: 'https://willococa.github.io/portfolio/',
-    linkSource: 'https://github.com/willococa/portfolio',
+    techTags: '<li><a href="#">HTML</a></li>\n<li><a href="#">CSS</a></li>\n<li><a href="#">JavaScript</a></li class="mob-li">\n<li><a href="#">Ruby</a></li>\n<li class="mob-li"><a href="#">Bootstrap</a></li>',
+    linkLive: 'https://kirube1992.github.io/new-portfolio/',
+    linkSource: 'https://github.com/kirube1992/new-portfolio',
 
   },
 ];
@@ -110,13 +110,13 @@ function showPopUp(id) {
       
   <p>${project.text}</p>
   </div>
-  <aside>
+  <aside class="left-part">
       <ul class="tech-tags">
       ${project.techTags}
     </ul>
     <div  class="link-tags">
-      <a href="${project.linkLive}" class="big-btn">See Live <img class="live-icon" src="images/Icon1.png" alt="Live Icon"></a>
-      <a href="${project.linkSource}" class="big-btn">Source <img class="live-icon" src="images/Icon -GitHub.png" alt="Github Icon"></a>
+      <a class="bu-fl" href="${project.linkLive}" class="big-btn">See Live <img class="live-icon" src="images/Icon1.png" alt="Live Icon"></a>
+      <a class="bu-fl" href="${project.linkSource}" class="big-btn">See Source <img class="live-icon" src="images/Icon -GitHub.png" alt="Github Icon"></a>
     </div>
   </aside>
   </div>
