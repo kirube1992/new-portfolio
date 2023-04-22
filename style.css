@@ -74,6 +74,132 @@ a {
   padding: 10px 5px;
 }
 
+
+/**  mobile  popup */
+.splash {
+  position: fixed;
+  backdrop-filter: blur(4px);
+  background-color: rgba(193, 199, 208, 0.5);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px;
+}
+
+.splash ul.due-time {
+  display: flex;
+  padding-left: 0;
+}
+
+.popup {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  flex-basis: 100%;
+  display: flex;
+  padding: 2.4em 2.4em 6.6em  2.4em;
+  margin: 2% auto;
+  border-radius: 30px;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  background-color: white;
+  height: 94%;
+  overflow-y: auto;
+  flex-direction: column;
+}
+
+.popup .pop-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popup .work-item-list {
+  background: white;
+  border-radius: 40px;
+  padding: 12px;
+}
+
+.popup .popup-image {
+  max-height: 60%;
+  padding-bottom: 4em;
+}
+
+.popup .info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 14px;
+}
+
+.popup .live-icon {
+  min-width: 0;
+  width: 18px;
+  height: 18px;
+  margin: 0 0 0 12px;
+  padding-top: 5px;
+}
+
+.popup .tech-tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 14px;
+  column-gap: 14px;
+  border-bottom: solid 0.1em #ebecf0;
+  margin-left: 12px;
+  padding-left: 0;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.popup .link-tags {
+  margin-left: 12px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 14px;
+}
+
+.popup .text {
+  flex-basis: 90%;
+}
+
+.popup aside span {
+  padding: 0 12px;
+  display: flex;
+  column-gap: 10px;
+}
+
+.popup .big-btn {
+  padding: 1.4em 2.2em;
+  font-size: 15px;
+  border-radius: 0.5em;
+}
+
+.popup .due-time {
+  color: #7a869a;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.popup .company-name {
+  color: #344563;
+  font-weight: 600;
+}
+/* END of mobile popup*/
+/*popup state clases*/
+.popupstate {
+  overflow: hidden;
+  display: flex;
+  margin: 0;
+}
+
+.navlinkpopupstate {
+  position: inherit;
+}
+/* END of popup state clases*/
+
 @media screen and (min-width: 768px) {
   .breadcrumb {
     display: none;
@@ -204,6 +330,91 @@ a {
     width: 122px;
     height: 120px;
   }
+  
+   /* desktop popup styles */
+
+   .splash {
+    position: fixed;
+    backdrop-filter: blur(4px);
+    background-color: rgba(193, 199, 208, 0.5);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .splash ul.due-time {
+    display: flex;
+    padding-left: 0;
+  }
+
+  .popup {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 60%;
+    display: flex;
+    padding: 2.4em 2.4em 6.6em  2.4em;
+    margin: 2% auto;
+    border-radius: 30px;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    background-color: white;
+    height: 94%;
+    overflow-y: auto;
+    flex-direction: column;
+  }
+
+  .popup .pop-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .popup .work-item-list {
+    background: white;
+    border-radius: 40px;
+    padding: 12px;
+  }
+
+  .popup .popup-image {
+    max-height: 50%;
+    padding-bottom: 4em;
+  }
+
+  .popup .info {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .popup .live-icon {
+    min-width: 0;
+    width: 18px;
+    height: 18px;
+    margin: 0 0 0 12px;
+    padding-top: 5px;
+  }
+
+  .popup .tech-tags {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 14px;
+    border-bottom: solid 0.1em #ebecf0;
+    margin-left: 12px;
+    padding-left: 0;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+  .popup .link-tags {
+    margin-left: 12px;
+  }
+
+  .popup .text {
+    flex-basis: 90%;
+  }
+  /* END of desktop popup styles */
 }
 
 .bar {

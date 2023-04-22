@@ -11,7 +11,7 @@ const projects = [
   {
     name: 'Tonic',
     duetimes: { place: 'Canopy', ocupation: 'Back end Dev', time: '2015' },
-    img_url: 'assets/Snapshoot-Portfolio.png',
+    img_url: 'images/Snapshoot-Portfolio.png',
     text: `Lorem Ipsum is simply dummy text of the printing and typesetting 
        industry. Lorem Ipsum has been the industry's standard dummy text ever 
        since the 1500s, when an unknown printer took a galley of type and 
@@ -31,7 +31,7 @@ const projects = [
   {
     name: 'Multi-Post Stories',
     duetimes: { place: 'Canopy', ocupation: 'Back end Dev', time: '2015' },
-    img_url: 'assets/snapportfolio2.png',
+    img_url: 'images/snapportfolio2.png',
     text: `Lorem Ipsum is simply dummy text of the printing and typesetting 
        industry. Lorem Ipsum has been the industry's standard dummy text ever 
        since the 1500s, when an unknown printer took a galley of type and 
@@ -51,7 +51,7 @@ const projects = [
   {
     name: 'Facebook 360',
     duetimes: { place: 'Canopy', ocupation: 'Back end Dev', time: '2015' },
-    img_url: 'assets/snapportfolio3.png',
+    img_url: 'images/snapportfolio3.png',
     text: `Lorem Ipsum is simply dummy text of the printing and typesetting 
        industry. Lorem Ipsum has been the industry's standard dummy text ever 
        since the 1500s, when an unknown printer took a galley of type and 
@@ -71,7 +71,7 @@ const projects = [
   {
     name: 'Uber Navigation',
     duetimes: { place: 'Canopy', ocupation: 'Back end Dev', time: '2015' },
-    img_url: 'assets/snapportfolio4.png',
+    img_url: 'images/snapportfolio4.png',
     text: `Lorem Ipsum is simply dummy text of the printing and typesetting 
        industry. Lorem Ipsum has been the industry's standard dummy text ever 
        since the 1500s, when an unknown printer took a galley of type and 
@@ -93,7 +93,7 @@ function showPopUp(id) {
   const project = projects[id - 1];
   popup.classList.toggle('splash');
   document.body.classList.add('popupstate');
-  menu.classList.toggle('navlinkpopupstate');
+  Menu.classList.toggle('navlinkpopupstate');
   popup.innerHTML += `
   <div class="popup pop-1 work-item-list">
     <div class="pop-header"><h2>${project.name}</h2> <a href="#" id="exit-btn">X</a></div>
@@ -115,8 +115,8 @@ function showPopUp(id) {
       ${project.techTags}
     </ul>
     <div  class="link-tags">
-      <a href="${project.linkLive}" class="big-btn">See Live <img class="live-icon" src="assets/Icon1.png" alt="Live Icon"></a>
-      <a href="${project.linkSource}" class="big-btn">Source <img class="live-icon" src="assets/Icon -GitHub.png" alt="Github Icon"></a>
+      <a href="${project.linkLive}" class="big-btn">See Live <img class="live-icon" src="images/Icon1.png" alt="Live Icon"></a>
+      <a href="${project.linkSource}" class="big-btn">Source <img class="live-icon" src="images/Icon -GitHub.png" alt="Github Icon"></a>
     </div>
   </aside>
   </div>
@@ -126,7 +126,7 @@ function showPopUp(id) {
   exitButton.addEventListener('click', (e) => {
     popup.classList.toggle('splash');
     document.body.classList.remove('popupstate');
-    menu.classList.toggle('navlinkpopupstate');
+    Menu.classList.toggle('navlinkpopupstate');
     popup.innerHTML = '';
     e.preventDefault();
   });
@@ -161,3 +161,9 @@ form.addEventListener('change', () => {
     textbox: form.textbox.value,
   }));
 });
+
+document.querySelectorAll('.project').forEach((n) => n.addEventListener('click', (e) => {
+  const id = n.id.split('-').slice(-1);
+  showPopUp(id);
+  e.preventDefault();
+}));
