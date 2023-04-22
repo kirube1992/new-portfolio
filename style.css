@@ -11,7 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #f4f5f7;
-  background-size: 100%;  
+  background-size: 100%;
   margin: 0;
 }
 
@@ -26,16 +26,18 @@ header {
   background-color: #fff;
   display: flex;
   flex-direction: row;
-
 }
-header nav{
+
+header nav {
   flex-basis: 100%;
 }
-.back{
+
+.back {
   background-color: white;
   padding: 12px;
   border-radius: 12px;
 }
+
 .logo,
 .item,
 .toggle {
@@ -58,13 +60,6 @@ a {
   rotate: 90deg;
 }
 
-.item {
-  color: #344563;
-  font-weight: 499;
-  font-size: 15px;
-  line-height: 20px;
-}
-
 .desktop-nav a {
   text-decoration: none;
   font-weight: 500;
@@ -82,41 +77,87 @@ a {
   align-items: center;
   padding: 24px;
 }
-section{
+
+section {
   padding: 24px;
 }
-#Portfolio{
+
+.work1-link li {
+  background-color: #dfe1e6;
+  border-radius: 5px;
+  color: #6070ff;
+  padding: 4px 12px;
+}
+
+.social li {
+  margin: 12px;
+}
+
+.due-time li {
+  margin-left: 25px;
+}
+
+.tech-tags li {
+  background-color: #ebebff;
+  border-radius: 5px;
+  color: #6070ff;
+  padding: 4px 12px;
+  font-size: 12px;
+}
+
+#Portfolio {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
   column-gap: 24px;
 }
-#Portfolio .back .btns li{
-  background: #EBEBFF;
+
+#Portfolio .back .btns li {
+  background: #ebebff;
 }
-#Portfolio .back .place{
+
+#Portfolio .back .place {
   display: flex;
   flex-direction: row;
-
 }
-#About{
+
+.abla1 {
+  background-color: #f7f7f9;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.work1 h1 {
+  color: #172b4d;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  line-height: 44px;
+}
+
+#About {
   background: white;
   border-radius: 0 90px 0 0;
   margin-top: 80px;
   padding-top: 130px;
 }
-#About .h1{
+
+#About .h1 {
   font-size: 40px;
 }
-#About .abla1{
+
+#About .abla1 {
   margin-left: 0;
 }
-.desktop{
+
+.desktop {
   display: none;
 }
-.place .company{
+
+.place .company {
   font-weight: 600;
 }
+
 .menu2 {
   display: flex;
 }
@@ -174,10 +215,15 @@ section{
 }
 
 .popup .popup-image {
-  padding-bottom: 4em;
   padding: 0;
+  padding-bottom: 4em;
   margin-bottom: 40px;
 }
+
+img {
+  width: 100%;
+}
+
 .popup img {
   max-width: 100%;
 }
@@ -209,20 +255,11 @@ section{
   padding-bottom: 20px;
 }
 
-.tech-tags li {
-  background-color: #ebebff;
-  border-radius: 5px;
-  color: #6070ff;
-  padding: 4px 12px;
-  font-size: 12px;
-}
-
 .popup .link-tags {
   display: flex;
   flex-wrap: wrap;
   row-gap: 12px;
   column-gap: 12px;
-  justify-content: space-around;
 }
 
 .popup .text {
@@ -237,11 +274,6 @@ section{
   display: flex;
   column-gap: 10px;
 }
-.popup .bu-fl{
-  padding: 8px 10px;
-  margin: 0;
-  color: #6070f7;
-}
 
 .bu-fl {
   display: flex;
@@ -253,15 +285,17 @@ section{
   align-items: center;
 }
 
+.popup .bu-fl {
+  padding: 8px 10px;
+  margin: 0;
+  color: #6070f7;
+}
+
 .popup .due-time {
   color: #7a869a;
   font-weight: 500;
   font-size: 1.5rem;
   font-size: 15px;
-}
-
-.due-time li {
-  margin-left: 25px;
 }
 
 .popup .company-name {
@@ -349,10 +383,6 @@ section{
   margin: 2px;
 }
 
-.social li {
-  margin: 12px;
-}
-
 .section1,
 .h1 {
   color: #172b4d;
@@ -383,18 +413,7 @@ section{
   line-height: 28px;
   font-weight: 400;
   color: #344563;
-}
-
-img {
-  width: 100%;
-}
-
-.work1 h1 {
-  color: #172b4d;
-  font-size: 32px;
-  font-weight: 700;
-  font-family: "Poppins", sans-serif;
-  line-height: 44px;
+  max-width: 420px;
 }
 
 .work1-li1 {
@@ -416,18 +435,12 @@ img {
 
 .pp {
   color: #344563;
+  max-width: 250px;
 }
 
 .work1-link {
   display: flex;
   list-style-type: none;
-}
-
-.work1-link li {
-  background-color: #dfe1e6;
-  border-radius: 5px;
-  color: #6070ff;
-  padding: 4px 12px;
 }
 
 .newlin {
@@ -465,15 +478,11 @@ section ul {
 }
 
 .abimg {
-  width: 47px;
   display: flex;
   flex-direction: column;
-}
-
-.abla1 {
-  background-color: #f7f7f9;
-  margin: 5px;
-  border-radius: 5px;
+  width: 48px;
+  height: 48px;
+  margin: 10px;
 }
 
 .abla2 {
@@ -580,25 +589,8 @@ textarea {
   color: red;
 }
 
-.item {
-  display: none;
-}
-
 .mob-li {
   display: none;
-}
-
-.section1,
-.p {
-  max-width: 420px;
-}
-
-.body-section {
-  background-size: 100%;
-}
-
-.pp {
-  max-width: 250px;
 }
 
 .contact {
@@ -612,48 +604,24 @@ textarea {
   border-top-left-radius: 60px;
 }
 
-.abla {
-  display: flex;
-  width: 303px;
-  height: 66.72px;
+
+@media only screen and (max-width: 768px) {
+  .item {
+    color: #344563;
+    font-weight: 499;
+    font-size: 15px;
+    line-height: 20px;
+    display: none;
+  }
 }
 
-.abla1 {
-  background-color: #f7f7f9;
-  margin: 35px;
-  border-radius: 5px;
+.item {
+  color: #344563;
+  font-weight: 499;
+  font-size: 15px;
+  line-height: 20px;
 }
 
-.abla2 {
-  background-color: #f7f7f9;
-  margin: 5px;
-  border-radius: 5px;
-}
-
-.abla3 {
-  background-color: #f7f7f9;
-  margin: 5px;
-  border-radius: 5px;
-}
-
-.abfr {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.abfr1 {
-  width: 25px;
-  height: 30px;
-}
-
-.abimg {
-  display: flex;
-  flex-direction: column;
-  width: 48px;
-  height: 48px;
-  margin: 10px;
-}
 @media only screen and (min-width: 768px) {
   .breadcrumb {
     display: none;
@@ -750,7 +718,6 @@ textarea {
     color: #344563;
   }
 
-
   .contact {
     display: flex;
     flex-direction: column;
@@ -814,10 +781,11 @@ textarea {
     overflow-y: auto;
     flex-direction: column;
   }
-.pop-header a{
-  color: #344563;
 
-}
+  .pop-header a {
+    color: #344563;
+  }
+
   .popup .pop-header {
     display: flex;
     justify-content: space-between;
@@ -867,7 +835,7 @@ textarea {
     margin-left: 12px;
   }
 
-  .popup .link-tags a{
+  .popup .link-tags a {
     color: #6070ff;
     width: 138px;
   }
@@ -889,13 +857,20 @@ textarea {
     height: 40px;
   }
 
-  /* END of desktop popup styles */
-  
-#Portfolio .work1-link li{
-  background: #EBEBFF;
+  .item {
+  color: #344563;
+  font-weight: 499;
+  font-size: 15px;
+  line-height: 20px;
 }
-  .mobile-cards{
+
+  /* END of desktop popup styles */
+
+  #Portfolio .work1-link li {
+    background: #ebebff;
+  }
+
+  .mobile-cards {
     display: none;
   }
 }
-
