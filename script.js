@@ -167,7 +167,4 @@ document.querySelectorAll('.project').forEach((n) => n.addEventListener('click',
   showPopUp(id);
   e.preventDefault();
 }));
-<<<<<<< HEAD
-=======
 
->>>>>>> 57658462a7552d8e16a06e8fa7e5128e41e5f5ae
