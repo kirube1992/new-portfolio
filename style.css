@@ -135,6 +135,16 @@ section {
   line-height: 44px;
 }
 
+.section1,
+.h1 {
+  color: #172b4d;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  max-width: 280px;
+  margin-top: 200px;
+}
+
 #About {
   background: white;
   border-radius: 0 90px 0 0;
@@ -383,14 +393,6 @@ img {
   margin: 2px;
 }
 
-.section1,
-.h1 {
-  color: #172b4d;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 44px;
-}
-
 .oldo {
   color: #172b4d;
   font-size: 32px;
@@ -604,7 +606,6 @@ textarea {
   border-top-left-radius: 60px;
 }
 
-
 @media only screen and (max-width: 768px) {
   .item {
     color: #344563;
@@ -639,12 +640,6 @@ textarea {
 
   .bsm {
     margin-left: 180px;
-  }
-
-  .section1,
-  .h1 {
-    max-width: 280px;
-    margin-top: 200px;
   }
 
   .section1,
@@ -858,13 +853,11 @@ textarea {
   }
 
   .item {
-  color: #344563;
-  font-weight: 499;
-  font-size: 15px;
-  line-height: 20px;
-}
-
-  /* END of desktop popup styles */
+    color: #344563;
+    font-weight: 499;
+    font-size: 15px;
+    line-height: 20px;
+  }
 
   #Portfolio .work1-link li {
     background: #ebebff;
