@@ -209,10 +209,6 @@ a {
   margin: 0;
 }
 
-/* END of mobile popup*/
-
-/*popup state clases*/
-
 .popupstate {
   overflow: hidden;
   display: flex;
@@ -222,8 +218,6 @@ a {
 .navlinkpopupstate {
   position: inherit;
 }
-
-/* END of popup state clases*/
 
 @media screen and (min-width: 768px) {
   .breadcrumb {
@@ -355,6 +349,7 @@ a {
     width: 122px;
     height: 120px;
   }
+
   /* desktop popup styles */
 
   .splash {
