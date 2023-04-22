@@ -1,11 +1,18 @@
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  display: grid;
-  grid-template-rows: auto auto;
+  display: flex;
+  flex-direction: column;
   background-color: #f4f5f7;
-  background-size: 100%;
+  background-size: 100%;  
+  margin: 0;
 }
 
 .body-section {
@@ -17,8 +24,18 @@ body {
 
 header {
   background-color: #fff;
-}
+  display: flex;
+  flex-direction: row;
 
+}
+header nav{
+  flex-basis: 100%;
+}
+.back{
+  background-color: white;
+  padding: 12px;
+  border-radius: 12px;
+}
 .logo,
 .item,
 .toggle {
@@ -63,8 +80,43 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  padding: 24px;
 }
+section{
+  padding: 24px;
+}
+#Portfolio{
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  column-gap: 24px;
+}
+#Portfolio .back .btns li{
+  background: #EBEBFF;
+}
+#Portfolio .back .place{
+  display: flex;
+  flex-direction: row;
 
+}
+#About{
+  background: white;
+  border-radius: 0 90px 0 0;
+  margin-top: 80px;
+  padding-top: 130px;
+}
+#About .h1{
+  font-size: 40px;
+}
+#About .abla1{
+  margin-left: 0;
+}
+.desktop{
+  display: none;
+}
+.place .company{
+  font-weight: 600;
+}
 .menu2 {
   display: flex;
 }
@@ -99,7 +151,7 @@ a {
   bottom: 0;
   flex-basis: 100%;
   display: flex;
-  padding: 2.4em 2.4em 6.6em  2.4em;
+  padding: 2.4em 1.2em 6.6em  1.2em;
   margin: 2% auto;
   border-radius: 30px;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
@@ -122,8 +174,12 @@ a {
 }
 
 .popup .popup-image {
-  max-height: 60%;
   padding-bottom: 4em;
+  padding: 0;
+  margin-bottom: 40px;
+}
+.popup img {
+  max-width: 100%;
 }
 
 .popup .info {
@@ -162,10 +218,11 @@ a {
 }
 
 .popup .link-tags {
-  margin-left: 12px;
   display: flex;
   flex-wrap: wrap;
-  row-gap: 14px;
+  row-gap: 12px;
+  column-gap: 12px;
+  justify-content: space-around;
 }
 
 .popup .text {
@@ -179,6 +236,11 @@ a {
   padding: 0 12px;
   display: flex;
   column-gap: 10px;
+}
+.popup .bu-fl{
+  padding: 8px 10px;
+  margin: 0;
+  color: #6070f7;
 }
 
 .bu-fl {
@@ -217,242 +279,6 @@ a {
 
 .navlinkpopupstate {
   position: inherit;
-}
-
-@media screen and (min-width: 768px) {
-  .breadcrumb {
-    display: none;
-  }
-
-  .body-section1 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 0;
-    background-color: #fff;
-    border-bottom-left-radius: 55px;
-    height: 846px;
-  }
-
-  .bsm {
-    margin-left: 180px;
-  }
-
-  .section1,
-  .h1 {
-    max-width: 280px;
-    margin-top: 200px;
-  }
-
-  .section1,
-  p {
-    max-width: 920px;
-  }
-
-  .work1 {
-    display: grid;
-    grid-template-rows: auto auto;
-  }
-
-  .back {
-    background-color: #fff;
-    margin: 40px 80px;
-    display: flex;
-    border-radius: 15px;
-    background-size: cover;
-  }
-
-  .bodydiv {
-    height: 448px;
-    padding: 24px;
-  }
-
-  .work1-img {
-    width: 544px;
-    height: 448px;
-  }
-
-  .work1-li1,
-  .oldo,
-  button {
-    margin: 40px 0;
-  }
-
-  .work1-link {
-    margin-bottom: 20px;
-  }
-
-  .pp {
-    max-width: 490px;
-  }
-
-  .auto {
-    display: flex;
-    margin-bottom: 10px;
-  }
-
-  .about1 {
-    display: flex;
-    align-items: flex-start;
-    margin-left: 0;
-    background-color: #fff;
-    border-top-right-radius: 75px;
-    width: 1340px;
-    height: 580px;
-    margin-top: 100px;
-  }
-
-  .about12 {
-    margin: 30px;
-  }
-
-  .about123 {
-    margin-left: 60px;
-  }
-
-  .about124 {
-    width: 684px;
-    height: 360px;
-    color: #344563;
-  }
-
-  .body-section12,
-  p {
-    max-width: 500px;
-  }
-
-  .contact {
-    display: flex;
-    flex-direction: column;
-    background-image: url(./images/kiru2.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-color: #6070ff;
-    border-top-left-radius: 150px;
-    align-items: center;
-  }
-
-  .bten {
-    display: flex;
-    justify-content: center;
-  }
-
-  .mep {
-    max-width: 390px;
-  }
-
-  .limg {
-    display: none;
-  }
-
-  .abla {
-    width: 122px;
-    height: 120px;
-  }
-
-  /* desktop popup styles */
-
-  .splash {
-    position: fixed;
-    backdrop-filter: blur(4px);
-    background-color: rgba(193, 199, 208, 0.5);
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-  }
-
-  .splash ul.due-time {
-    display: flex;
-    padding-left: 0;
-  }
-
-  .popup {
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 60%;
-    display: flex;
-    padding: 2.4em 2.4em 6.6em  2.4em;
-    margin: 2% auto;
-    border-radius: 30px;
-    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-    background-color: white;
-    height: 94%;
-    overflow-y: auto;
-    flex-direction: column;
-  }
-
-  .popup .pop-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .popup .work-item-list {
-    background: white;
-    border-radius: 40px;
-    padding: 12px;
-  }
-
-  .popup .popup-image {
-    max-height: 50%;
-    padding-bottom: 4em;
-  }
-
-  .popup .info {
-    display: flex;
-    flex-direction: row;
-    margin-top: 400px;
-    position: relative;
-  }
-
-  .popup .live-icon {
-    min-width: 0;
-    width: 18px;
-    height: 18px;
-    margin: 0 0 0 12px;
-    padding-top: 5px;
-  }
-
-  .popup .tech-tags {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 14px;
-    border-bottom: solid 0.1em #ebecf0;
-    margin-left: 12px;
-    padding-left: 0;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    color: #6070ff;
-    width: 250px;
-  }
-
-  .popup .link-tags {
-    margin-left: 12px;
-  }
-
-  .popup .text {
-    flex-basis: 90%;
-    max-width: 470px;
-  }
-
-  .bu-fl {
-    display: flex;
-    border: 1px solid #6070ff;
-    margin-right: 10px;
-    padding: 4px 15px;
-    font-size: 15px;
-    border-radius: 0.5em;
-    align-items: center;
-    width: 102px;
-    height: 40px;
-  }
-
-  /* END of desktop popup styles */
 }
 
 .bar {
@@ -511,83 +337,6 @@ a {
 
 .desktop-nav.active {
   left: 0;
-}
-
-@media only screen and (max-width: 768px) {
-  .item {
-    display: none;
-  }
-
-  .mob-li {
-    display: none;
-  }
-
-  .section1,
-  .p {
-    max-width: 420px;
-  }
-
-  .body-section {
-    background-size: 100%;
-  }
-
-  .pp {
-    max-width: 250px;
-  }
-
-  .contact {
-    display: flex;
-    flex-direction: column;
-    background-image: url(./images/tttt.png);
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-color: #6070ff;
-    background-position: top 0 right 0;
-    border-top-left-radius: 60px;
-  }
-
-  .abla {
-    display: flex;
-    width: 303px;
-    height: 66.72px;
-  }
-
-  .abla1 {
-    background-color: #f7f7f9;
-    margin: 35px;
-    border-radius: 5px;
-  }
-
-  .abla2 {
-    background-color: #f7f7f9;
-    margin: 5px;
-    border-radius: 5px;
-  }
-
-  .abla3 {
-    background-color: #f7f7f9;
-    margin: 5px;
-    border-radius: 5px;
-  }
-
-  .abfr {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .abfr1 {
-    width: 25px;
-    height: 30px;
-  }
-
-  .abimg {
-    display: flex;
-    flex-direction: column;
-    width: 48px;
-    height: 48px;
-    margin: 10px;
-  }
 }
 
 .item1 {
@@ -830,3 +579,323 @@ textarea {
   background-color: white;
   color: red;
 }
+
+.item {
+  display: none;
+}
+
+.mob-li {
+  display: none;
+}
+
+.section1,
+.p {
+  max-width: 420px;
+}
+
+.body-section {
+  background-size: 100%;
+}
+
+.pp {
+  max-width: 250px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./images/tttt.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-color: #6070ff;
+  background-position: top 0 right 0;
+  border-top-left-radius: 60px;
+}
+
+.abla {
+  display: flex;
+  width: 303px;
+  height: 66.72px;
+}
+
+.abla1 {
+  background-color: #f7f7f9;
+  margin: 35px;
+  border-radius: 5px;
+}
+
+.abla2 {
+  background-color: #f7f7f9;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.abla3 {
+  background-color: #f7f7f9;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.abfr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.abfr1 {
+  width: 25px;
+  height: 30px;
+}
+
+.abimg {
+  display: flex;
+  flex-direction: column;
+  width: 48px;
+  height: 48px;
+  margin: 10px;
+}
+@media only screen and (min-width: 768px) {
+  .breadcrumb {
+    display: none;
+  }
+
+  .body-section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0;
+    background-color: #fff;
+    border-bottom-left-radius: 55px;
+    height: 846px;
+  }
+
+  .bsm {
+    margin-left: 180px;
+  }
+
+  .section1,
+  .h1 {
+    max-width: 280px;
+    margin-top: 200px;
+  }
+
+  .section1,
+  p {
+    max-width: 920px;
+  }
+
+  .work1 {
+    display: grid;
+    grid-template-rows: auto auto;
+  }
+
+  .back {
+    background-color: #fff;
+    margin: 40px 80px;
+    display: flex;
+    border-radius: 15px;
+  }
+
+  .bodydiv {
+    height: 448px;
+    padding: 24px;
+  }
+
+  .work1-img {
+    width: 544px;
+    height: 448px;
+  }
+
+  .work1-li1,
+  .oldo,
+  button {
+    margin: 40px 0;
+  }
+
+  .work1-link {
+    margin-bottom: 20px;
+  }
+
+  .pp {
+    max-width: 490px;
+  }
+
+  .auto {
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  .about1 {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 0;
+    background-color: #fff;
+    border-top-right-radius: 75px;
+    width: 1340px;
+    height: 580px;
+    margin-top: 100px;
+  }
+
+  .about12 {
+    margin: 30px;
+  }
+
+  .about123 {
+    margin-left: 60px;
+  }
+
+  .about124 {
+    width: 684px;
+    height: 360px;
+    color: #344563;
+  }
+
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/kiru2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #6070ff;
+    border-top-left-radius: 150px;
+    align-items: center;
+  }
+
+  .bten {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mep {
+    max-width: 390px;
+  }
+
+  .limg {
+    display: none;
+  }
+
+  .abla {
+    width: 122px;
+    height: 120px;
+  }
+
+  /* desktop popup styles */
+
+  .splash {
+    position: fixed;
+    backdrop-filter: blur(4px);
+    background-color: rgba(193, 199, 208, 0.5);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .splash ul.due-time {
+    display: flex;
+    padding-left: 0;
+  }
+
+  .popup {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 60%;
+    display: flex;
+    padding: 2.4em 2.4em 6.6em  2.4em;
+    margin: 2% auto;
+    border-radius: 30px;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    background-color: white;
+    height: 94%;
+    overflow-y: auto;
+    flex-direction: column;
+  }
+.pop-header a{
+  color: #344563;
+
+}
+  .popup .pop-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .popup .work-item-list {
+    background: white;
+    border-radius: 40px;
+    padding: 12px;
+  }
+
+  .popup .popup-image {
+    padding-bottom: 1em;
+    margin: 0;
+  }
+
+  .popup .info {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+
+  .popup .live-icon {
+    min-width: 0;
+    width: 18px;
+    height: 18px;
+    margin: 0 0 0 12px;
+    padding-top: 5px;
+  }
+
+  .popup .tech-tags {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 14px;
+    border-bottom: solid 0.1em #ebecf0;
+    margin-left: 12px;
+    padding-left: 0;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: #6070ff;
+    width: 250px;
+  }
+
+  .popup .link-tags {
+    margin-left: 12px;
+  }
+
+  .popup .link-tags a{
+    color: #6070ff;
+    width: 138px;
+  }
+
+  .popup .text {
+    flex-basis: 90%;
+    max-width: 390px;
+  }
+
+  .bu-fl {
+    display: flex;
+    border: 1px solid #6070ff;
+    margin-right: 10px;
+    padding: 4px 15px;
+    font-size: 15px;
+    border-radius: 0.5em;
+    align-items: center;
+    width: 115px;
+    height: 40px;
+  }
+
+  /* END of desktop popup styles */
+  
+#Portfolio .work1-link li{
+  background: #EBEBFF;
+}
+  .mobile-cards{
+    display: none;
+  }
+}
+
