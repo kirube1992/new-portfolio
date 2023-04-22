@@ -74,8 +74,8 @@ a {
   padding: 10px 5px;
 }
 
-
 /**  mobile  popup */
+
 .splash {
   position: fixed;
   backdrop-filter: blur(4px);
@@ -154,7 +154,7 @@ a {
 }
 
 .tech-tags li {
-  background-color:#ebebff;
+  background-color: #ebebff;
   border-radius: 5px;
   color: #6070ff;
   padding: 4px 12px;
@@ -166,7 +166,6 @@ a {
   display: flex;
   flex-wrap: wrap;
   row-gap: 14px;
-  margin: 25px;
 }
 
 .popup .text {
@@ -184,7 +183,7 @@ a {
 
 .bu-fl {
   display: flex;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   margin-right: 10px;
   padding: 12px 22px;
   font-size: 15px;
@@ -209,8 +208,11 @@ a {
   list-style-type: none;
   margin: 0;
 }
+
 /* END of mobile popup*/
+
 /*popup state clases*/
+
 .popupstate {
   overflow: hidden;
   display: flex;
@@ -220,6 +222,7 @@ a {
 .navlinkpopupstate {
   position: inherit;
 }
+
 /* END of popup state clases*/
 
 @media screen and (min-width: 768px) {
@@ -352,10 +355,9 @@ a {
     width: 122px;
     height: 120px;
   }
-  
-   /* desktop popup styles */
+  /* desktop popup styles */
 
-   .splash {
+  .splash {
     position: fixed;
     backdrop-filter: blur(4px);
     background-color: rgba(193, 199, 208, 0.5);
@@ -409,7 +411,7 @@ a {
     display: flex;
     flex-direction: row;
     margin-top: 400px;
-    position:relative;
+    position: relative;
   }
 
   .popup .live-icon {
@@ -431,6 +433,7 @@ a {
     margin-bottom: 20px;
     padding-bottom: 20px;
     color: #6070ff;
+    width: 250px;
   }
 
   .popup .link-tags {
@@ -444,7 +447,7 @@ a {
 
   .bu-fl {
     display: flex;
-    border: 1px solid #6070FF;
+    border: 1px solid #6070ff;
     margin-right: 10px;
     padding: 4px 15px;
     font-size: 15px;
